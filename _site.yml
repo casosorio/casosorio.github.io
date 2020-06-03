@@ -1,0 +1,20 @@
+name: "casey osorio-duffoo"
+output_dir: "."
+navbar:
+  title: "Casey's Website"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "say hello"
+      menu:
+        - icon: fa-linkedin
+          href: https://www.linkedin.com/in/casey-osorio-duffoo
+    - text: "About"
+      href: about.html
+    - text: "Resume"
+      href: Resume.html
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+    css: css/style.css
