@@ -12,6 +12,8 @@ website:
         text: Projects
       - href: resume.qmd
         text: Resume
+      - href: education.qmd
+        text: Education
     right:
       - icon: github
         href: https://github.com/casosorio

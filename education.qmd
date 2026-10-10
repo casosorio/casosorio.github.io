@@ -1,0 +1,12 @@
+---
+title: "Education"
+---
+
+## Master's Degree, Industrial/Organizational Psychology
+**Montclair State University** | *2021*
+
+- Graduate research on the development and validation of a bifactor employee engagement measure, presented at SIOP 2022 and 2023 ([see projects](projects.qmd))
+- Graduate Assistant, later promoted to Adjunct Professor, teaching regression and machine learning in R
+
+## B.A., Psychology (Honors)
+**Seton Hall University** | *2019*
