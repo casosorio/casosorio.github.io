@@ -25,7 +25,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Engagement as Attitude: A Bifactor Measure of Employee Engagement\n\n\n\nR\n\npsychometrics\n\nresearch\n\nCFA\n\n\n\nCo-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\nBought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples\n\n\n\nR\n\npsychometrics\n\nresearch\n\nmeasurement invariance\n\n\n\nSecond-author manuscript testing whether paid online panels and volunteer samples answer the same survey the same way.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBifactor Engagement Measure: SIOP 2022 & 2023 Posters\n\n\n\nR\n\npsychometrics\n\npeople analytics\n\nresearch\n\n\n\nTwo conference posters on developing and validating a new employee engagement survey, built with R and posterdown.\n\n\n\nApr 19, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Engagement as Attitude: A Bifactor Measure of Employee Engagement\n\n\n\nR\n\npsychometrics\n\nresearch\n\nCFA\n\n\n\nCo-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R.\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nBought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples\n\n\n\nR\n\npsychometrics\n\nresearch\n\nmeasurement invariance\n\n\n\nSecond-author manuscript testing whether paid online panels and volunteer samples answer the same survey the same way.\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBifactor Engagement Measure: SIOP 2022 & 2023 Posters\n\n\n\nR\n\npsychometrics\n\npeople analytics\n\nresearch\n\n\n\nTwo conference posters on developing and validating a new employee engagement survey, built with R and posterdown.\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n2021 State of Culture Report\n\n\n\nsurvey research\n\norganizational culture\n\ndata analysis\n\n\n\nCo-authored gothamCulture’s first annual global study of organizational culture during COVID-19, with survey data from 241 respondents across 200+ organizations.\n\n\n\n2021\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/engagement-paper/index.html",
@@ -70,55 +70,6 @@
     "text": "Tools\nR, R Markdown, papaja (APA-formatted manuscripts), lavaan, tidyverse, LaTeX, Git/GitHub"
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands."
-  },
-  {
-    "objectID": "resume.html#summary",
-    "href": "resume.html#summary",
-    "title": "Resume",
-    "section": "",
-    "text": "Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands."
-  },
-  {
-    "objectID": "resume.html#skills",
-    "href": "resume.html#skills",
-    "title": "Resume",
-    "section": "Skills",
-    "text": "Skills\n\nTechnical: Python, R, SQL, dbt, Snowflake, BigQuery, Power BI, Alteryx, Streamlit, Looker\nAI Tools: GitHub Copilot, Cursor, Claude, Cortex\nStatistical / Psychometric: Reliability and validity testing, t-tests, ANOVA, correlation, regression, Fisher’s Z transformation, assessment design and weighting\nDomain: People analytics, talent assessment, BI infrastructure, data governance, survey methodology"
-  },
-  {
-    "objectID": "resume.html#experience",
-    "href": "resume.html#experience",
-    "title": "Resume",
-    "section": "Experience",
-    "text": "Experience\n\nSenior Analyst (promoted from Data Analyst)\nAdvance Local · Remote | May 2023 – Present\n\nBuilt dbt/SQL pipelines in Snowflake that standardized survey data processing, cutting turnaround from 3–4 weeks to under 2 business days\nCut survey prep time from 3 days to near-instant upon survey close as part of the same pipeline work\nBuild gold-level data models/tables that feed Power BI dashboards tracking audience engagement, revenue KPIs, and audience demographics\nBuilt a Power BI heatmap (matrix visual) for site-by-content-index audience analysis, including a DAX measure using REMOVEFILTERS to calculate percentage of known users independent of demographic filter context\nOwn data governance for these pipelines and dashboards, enforcing access controls and running data quality checks\nUse AI tools daily (GitHub Copilot, Cursor, Claude, Cortex) to accelerate development and surface insights faster\n\n\n\nAnalyst, People Science\nHarver · Remote | April 2021 – February 2023\n\nDesigned and validated talent assessment batteries in partnership with client organizations\nAdministered assessments to current employees and collected manager performance ratings as part of the validation process\nDetermined assessment weighting based on validation results\nMonitored live hiring results and validated the reliability and predictive validity of assessments using t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\n\n\n\nAdjunct Professor (promoted from Graduate Assistant)\nMontclair State University · Remote | Aug 2020 – May 2021; Sep 2022 – Jan 2023\n\nPromoted from Graduate Assistant to Adjunct Professor after developing a machine learning module (regression, classification) for master’s students\nTaught multiple and logistic regression and machine learning in R to master’s and undergraduate students\nDesigned coursework combining theory with hands-on projects, encouraging students to apply statistical models to real-world data\nLed lectures on statistical methods (mean comparison, regression, chi-square, etc.) using R and RMarkdown\nProvided one-on-one support during office hours, ensuring student comprehension at all levels\nAssisted with projects in the Sociology Department\nCollaborated with faculty to align content with diversity, equity, and inclusion initiatives and curriculum goals\n\n\n\nIntern\ngothamCulture · New York City Metropolitan Area | August 2020 – May 2021\n\nSupported organizational culture projects by designing surveys, cleaning datasets, and generating insights that informed clients’ workplace strategies\nDesigned and analyzed surveys using SurveyMonkey, Excel, and R for the annual gothamCulture workplace report\nCreated visuals and dashboards to compare cultural trends across industries\nConducted research on best practices in workplace culture and provided clients with tailored recommendations\n\n\n\nRecruiting Intern (Part-Time)\nAffinity North · United States | January 2020 – August 2020\n\nEnsured a strong candidate experience; supported orientation and new hire activities\nPrepared candidate schedules, maintained candidate files and databases (PCR Database and Excel), and ensured compliance with applicable policies, procedures, and laws\nGenerated recruiting statistics reports and other ad hoc reports as needed\nSourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice\nAssisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS"
-  },
-  {
-    "objectID": "resume.html#manuscripts",
-    "href": "resume.html#manuscripts",
-    "title": "Resume",
-    "section": "Manuscripts",
-    "text": "Manuscripts\n\nKulas, J., Osorio-Duffoo, C., DeFabiis, M., & Russell, M. Bought but partially sold? Measurement invariance across purchased and snowball samples [Unpublished manuscript]. View\nKulas, J., Garcia Prieto Palacios Roji, R., Osorio-Duffoo, C., Russell, M., & DeFabiis, M. Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement [Unpublished manuscript]. View"
-  },
-  {
-    "objectID": "resume.html#conference-presentations",
-    "href": "resume.html#conference-presentations",
-    "title": "Resume",
-    "section": "Conference Presentations",
-    "text": "Conference Presentations\n\nKulas, J., DeFabiis, M., Osorio, C., & Russell, M. (2023). Construct and criterion-related validation of the bifactor engagement scale [Poster]. SIOP Annual Conference, Boston, MA. View\nRussell, M., Garcia Prieto Palacios Roji, R., Osorio-Duffoo, C., & Kulas, J. (2022). Development of an intended bifactor engagement measure [Poster]. SIOP Annual Conference, Seattle, WA. View"
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Resume",
-    "section": "Education",
-    "text": "Education\nMaster’s Degree, Industrial/Organizational Psychology · Montclair State University | 2021\nB.A., Psychology (Honors) · Seton Hall University | 2019"
-  },
-  {
     "objectID": "projects/engagement-posters/index.html",
     "href": "projects/engagement-posters/index.html",
     "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
@@ -152,6 +103,97 @@
     "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
     "section": "Tools",
     "text": "Tools\nR: tidyverse, lavaan (CFA/bifactor models), semPlot, psych, DT, and posterdown for the posters themselves."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands."
+  },
+  {
+    "objectID": "resume.html#summary",
+    "href": "resume.html#summary",
+    "title": "Resume",
+    "section": "",
+    "text": "Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\n\nTechnical: Python, R, SQL, dbt, Snowflake, BigQuery, Power BI, Alteryx, Streamlit, Looker\nAI Tools: GitHub Copilot, Cursor, Claude, Cortex\nStatistical / Psychometric: Reliability and validity testing, t-tests, ANOVA, correlation, regression, Fisher’s Z transformation, assessment design and weighting\nDomain: People analytics, talent assessment, BI infrastructure, data governance, survey methodology"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\n\nSenior Analyst (promoted from Data Analyst)\nAdvance Local · Remote | May 2023 – Present\n\nBuilt dbt/SQL pipelines in Snowflake that standardized survey data processing, cutting turnaround from 3–4 weeks to under 2 business days\nCut survey prep time from 3 days to near-instant upon survey close as part of the same pipeline work\nBuild gold-level data models/tables that feed Power BI dashboards tracking audience engagement, revenue KPIs, and audience demographics\nBuilt a Power BI heatmap (matrix visual) for site-by-content-index audience analysis, including a DAX measure using REMOVEFILTERS to calculate percentage of known users independent of demographic filter context\nOwn data governance for these pipelines and dashboards, enforcing access controls and running data quality checks\nUse AI tools daily (GitHub Copilot, Cursor, Claude, Cortex) to accelerate development and surface insights faster\n\n\n\nAnalyst, People Science\nHarver · Remote | April 2021 – February 2023\n\nDesigned and validated talent assessment batteries in partnership with client organizations\nAdministered assessments to current employees and collected manager performance ratings as part of the validation process\nDetermined assessment weighting based on validation results\nMonitored live hiring results and validated the reliability and predictive validity of assessments using t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\n\n\n\nAdjunct Professor (promoted from Graduate Assistant)\nMontclair State University · Remote | Aug 2020 – May 2021; Sep 2022 – Jan 2023\n\nPromoted from Graduate Assistant to Adjunct Professor after developing a machine learning module (regression, classification) for master’s students\nTaught multiple and logistic regression and machine learning in R to master’s and undergraduate students\nDesigned coursework combining theory with hands-on projects, encouraging students to apply statistical models to real-world data\nLed lectures on statistical methods (mean comparison, regression, chi-square, etc.) using R and RMarkdown\nProvided one-on-one support during office hours, ensuring student comprehension at all levels\nAssisted with projects in the Sociology Department\nCollaborated with faculty to align content with diversity, equity, and inclusion initiatives and curriculum goals\n\n\n\nIntern\ngothamCulture · New York City Metropolitan Area | August 2020 – May 2021\n\nSupported organizational culture projects by designing surveys, cleaning datasets, and generating insights that informed clients’ workplace strategies\nDesigned and analyzed surveys using SurveyMonkey, Excel, and R for the annual gothamCulture workplace report\nCreated visuals and dashboards to compare cultural trends across industries\nConducted research on best practices in workplace culture and provided clients with tailored recommendations\n\n\n\nRecruiting Intern (Part-Time)\nAffinity North · United States | January 2020 – August 2020\n\nEnsured a strong candidate experience; supported orientation and new hire activities\nPrepared candidate schedules, maintained candidate files and databases (PCR Database and Excel), and ensured compliance with applicable policies, procedures, and laws\nGenerated recruiting statistics reports and other ad hoc reports as needed\nSourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice\nAssisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS"
+  },
+  {
+    "objectID": "resume.html#publications-manuscripts",
+    "href": "resume.html#publications-manuscripts",
+    "title": "Resume",
+    "section": "Publications & Manuscripts",
+    "text": "Publications & Manuscripts\n\nCancialosi, C., ElMakkaoui, Z., Lind, B., & Osorio-Duffoo, C. (2021). 2021 State of culture report: Insights from an unprecedented year. gothamCulture. View\nKulas, J., Osorio-Duffoo, C., DeFabiis, M., & Russell, M. Bought but partially sold? Measurement invariance across purchased and snowball samples [Unpublished manuscript]. View\nKulas, J., Garcia Prieto Palacios Roji, R., Osorio-Duffoo, C., Russell, M., & DeFabiis, M. Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement [Unpublished manuscript]. View"
+  },
+  {
+    "objectID": "resume.html#conference-presentations",
+    "href": "resume.html#conference-presentations",
+    "title": "Resume",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n\nKulas, J., DeFabiis, M., Osorio, C., & Russell, M. (2023). Construct and criterion-related validation of the bifactor engagement scale [Poster]. SIOP Annual Conference, Boston, MA. View\nRussell, M., Garcia Prieto Palacios Roji, R., Osorio-Duffoo, C., & Kulas, J. (2022). Development of an intended bifactor engagement measure [Poster]. SIOP Annual Conference, Seattle, WA. View"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\nMaster’s Degree, Industrial/Organizational Psychology · Montclair State University | 2021\nB.A., Psychology (Honors) · Seton Hall University | 2019"
+  },
+  {
+    "objectID": "projects/state-of-culture-2021/index.html",
+    "href": "projects/state-of-culture-2021/index.html",
+    "title": "2021 State of Culture Report",
+    "section": "",
+    "text": "Publisher: gothamCulture & the Global Organizational Culture Institute Authors: Chris Cancialosi, Zad ElMakkaoui, Brian Lind, Casey Osorio-Duffoo Role: Co-author; data cleaning and data analysis (internship)\nRead the full report (PDF)"
+  },
+  {
+    "objectID": "projects/state-of-culture-2021/index.html#the-question",
+    "href": "projects/state-of-culture-2021/index.html#the-question",
+    "title": "2021 State of Culture Report",
+    "section": "The question",
+    "text": "The question\nDuring the COVID-19 pandemic, some organizations adapted and even innovated while others struggled. What aspects of organizational culture separated the two?"
+  },
+  {
+    "objectID": "projects/state-of-culture-2021/index.html#the-study",
+    "href": "projects/state-of-culture-2021/index.html#the-study",
+    "title": "2021 State of Culture Report",
+    "section": "The study",
+    "text": "The study\n\nSurvey: a 70-item survey covering culture, climate, performance, COVID-19 responses, values, and social justice practices (Likert-scale and open-ended items)\nSample: 241 respondents from more than 200 organizations across six continents, including HR/OD and non-HR professionals and roles from individual contributor to executive\nCollection: six weeks of snowball sampling through professional networks and social media\nFramework: gothamCulture’s Culture Mosaic, which scores four culture dimensions: Inspire, Deliver, Enable, and Adapt"
+  },
+  {
+    "objectID": "projects/state-of-culture-2021/index.html#key-findings",
+    "href": "projects/state-of-culture-2021/index.html#key-findings",
+    "title": "2021 State of Culture Report",
+    "section": "Key findings",
+    "text": "Key findings\n\n\n\n\n\n\n\n\n\n\nCulture predicted adaptability. Organizations that pivoted or innovated during the pandemic scored significantly higher on all four Culture Mosaic dimensions, for example Enable (79 vs. 61) and Adapt (78 vs. 53).\nDefining culture matters. Organizations with a shared definition of culture, especially one shaped by leadership, scored significantly higher on all four dimensions. Only 44% had one.\nMeasurement isn’t action. Only 36% formally measured culture, and just 21% said their assessments led to real change, a clear gap between data and action.\nRemote work is here to stay. 68% expected remote work to continue after the pandemic.\nSocial justice: organizations that discussed social justice openly and honestly significantly outperformed those that treated it as “lip service.”"
+  },
+  {
+    "objectID": "projects/state-of-culture-2021/index.html#my-contributions",
+    "href": "projects/state-of-culture-2021/index.html#my-contributions",
+    "title": "2021 State of Culture Report",
+    "section": "My contributions",
+    "text": "My contributions\n\nCleaned and prepared the survey data for analysis\nAnalyzed the survey results, comparing groups of organizations on Culture Mosaic scores\nHelped design and analyze the survey in SurveyMonkey, Excel, and R, and created visuals comparing cultural trends across industries"
+  },
+  {
+    "objectID": "projects/state-of-culture-2021/index.html#tools",
+    "href": "projects/state-of-culture-2021/index.html#tools",
+    "title": "2021 State of Culture Report",
+    "section": "Tools",
+    "text": "Tools\nR, Excel, SurveyMonkey"
   },
   {
     "objectID": "projects/measurement-invariance/index.html",
