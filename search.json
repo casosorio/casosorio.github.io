@@ -7,123 +7,60 @@
     "text": "I’m a data analyst whose work spans BI infrastructure, data engineering, and people analytics. I build production dbt/SQL pipelines and Power BI dashboards, and I bring graduate training in Industrial/Organizational Psychology to the statistical side, designing and validating talent assessments with reliability, validity, and significance testing.\nCurrently: Senior Analyst at Advance Local.\nSee my projects View my resume"
   },
   {
-    "objectID": "projects/engagement-paper/index.html",
-    "href": "projects/engagement-paper/index.html",
-    "title": "Engagement Paper: Bifactor Measure Development & Measurement Invariance",
+    "objectID": "projects/measurement-invariance/index.html",
+    "href": "projects/measurement-invariance/index.html",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
     "section": "",
-    "text": "Working title: Development and validation of a prescriptive bi-factor measure of employee engagement Authors: John Kulas, Renata Garcia Prieto Palacios Roji, Casey Osorio-Duffoo, Mike DeFabiis, Morgan Russell Status: Manuscript in progress Code: jtkulas/EngagementPaper"
+    "text": "Authors: John Kulas, Casey Osorio-Duffoo, Mike DeFabiis, & Morgan Russell Role: Second author Code: jtkulas/EngagementPaper · Engagement-Survey-Projects"
   },
   {
-    "objectID": "projects/engagement-paper/index.html#about-the-paper",
-    "href": "projects/engagement-paper/index.html#about-the-paper",
-    "title": "Engagement Paper: Bifactor Measure Development & Measurement Invariance",
-    "section": "About the paper",
-    "text": "About the paper\nEngagement is often described by its sub-dimensions (vigor, dedication, absorption). Attitudes, meanwhile, are often split into cognitive, affective, and behavioral components. This paper documents how we built a measure that intentionally crosses those two models:\n\n72 → 36 items through content validation\n36 → 20 items after piloting with a snowball sample of 330 respondents\n20 → 18 items after a further administration to 743 Prolific respondents\n\nThe final scale shows moderately good bifactor fit. It can be scored two ways: by substantive dimension (useful to researchers) or by attitude component (useful to practitioners).\nA companion study, “Bought but Partially Sold? Measurement Invariance across Purchased and Snowball Samples,” tests whether people from volunteer, Qualtrics, and Prolific samples interpret the survey the same way."
+    "objectID": "projects/measurement-invariance/index.html#the-question",
+    "href": "projects/measurement-invariance/index.html#the-question",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "section": "The question",
+    "text": "The question\nOver the past 15 years, organizations and researchers have increasingly bought survey responses from online panels such as Qualtrics and Prolific instead of recruiting volunteers. These panels are fast, but data quality questions remain. Do people from purchased panels interpret a survey the same way as people who volunteered to take it?"
   },
   {
-    "objectID": "projects/engagement-paper/index.html#my-contributions",
-    "href": "projects/engagement-paper/index.html#my-contributions",
-    "title": "Engagement Paper: Bifactor Measure Development & Measurement Invariance",
-    "section": "My contributions",
-    "text": "My contributions\nI’m one of the top contributors to the repository, with 41 commits across two phases:\nData cleaning and analysis (2020–2021)\n\nAutomated cleaning of messy free-text survey responses (for example, “hours worked”) so the code works on new data as it comes in\nRecoded reverse-scored items, split and merged data across survey conditions, and ran item analysis\nBuilt interactive plots of results\nRan confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn’t converge\n\nReproducible pipeline (2023)\n\nCleaned up the code base and documented each data source (sample, response dates)\nCombined all survey samples into a single analysis data frame for the measurement invariance analysis\nFixed the CFA code to run on the cleaned data and got the APA-formatted manuscript knitting to PDF again"
-  },
-  {
-    "objectID": "projects/engagement-paper/index.html#tools",
-    "href": "projects/engagement-paper/index.html#tools",
-    "title": "Engagement Paper: Bifactor Measure Development & Measurement Invariance",
-    "section": "Tools",
-    "text": "Tools\nR, R Markdown, papaja (APA-formatted manuscripts), lavaan, tidyverse, LaTeX, Git/GitHub for collaboration across five authors."
-  },
-  {
-    "objectID": "projects/assessment-validation/index.html",
-    "href": "projects/assessment-validation/index.html",
-    "title": "Talent Assessment Design & Validation",
-    "section": "",
-    "text": "Role: Analyst, People Science, Harver"
-  },
-  {
-    "objectID": "projects/assessment-validation/index.html#overview",
-    "href": "projects/assessment-validation/index.html#overview",
-    "title": "Talent Assessment Design & Validation",
-    "section": "Overview",
-    "text": "Overview\nI designed talent assessment batteries with client organizations and validated that they actually predicted on-the-job performance."
-  },
-  {
-    "objectID": "projects/assessment-validation/index.html#approach",
-    "href": "projects/assessment-validation/index.html#approach",
-    "title": "Talent Assessment Design & Validation",
+    "objectID": "projects/measurement-invariance/index.html#approach",
+    "href": "projects/measurement-invariance/index.html#approach",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
     "section": "Approach",
-    "text": "Approach\n\nData collection: Gave the assessments to current employees and collected manager performance ratings\nValidation: Tested reliability and predictive validity with t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\nWeighting: Set assessment weights based on validation results\nMonitoring: Tracked live hiring results to make sure assessments kept performing over time"
+    "text": "Approach\nWe tested the measurement invariance of our 18-item engagement survey (see the engagement paper) across samples, first three and then five:\n\nVoluntary snowball sample (n = 232)\nQualtrics panel, cleaned (from 743 respondents)\nProlific panel, cleaned (from 785 respondents)\nQualtrics respondents flagged as careless\nProlific respondents flagged as careless\n\nUsing multi-group confirmatory factor analysis in lavaan, we compared configural, metric, and scalar models to see where the samples’ responses diverged."
   },
   {
-    "objectID": "projects/survey-pipeline/index.html",
-    "href": "projects/survey-pipeline/index.html",
-    "title": "Automated Survey Data Pipeline",
+    "objectID": "projects/measurement-invariance/index.html#my-contributions",
+    "href": "projects/measurement-invariance/index.html#my-contributions",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "section": "My contributions",
+    "text": "My contributions\n\nCombined all three survey sources into one cleaned analysis data set, with documented sample sources and response dates\nWrote and maintained the measurement invariance analysis in R Markdown"
+  },
+  {
+    "objectID": "projects/measurement-invariance/index.html#tools",
+    "href": "projects/measurement-invariance/index.html#tools",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "section": "Tools",
+    "text": "Tools\nR, lavaan, tidyverse, R Markdown, papaja, Git/GitHub"
+  },
+  {
+    "objectID": "projects/teaching-ml-r/index.html",
+    "href": "projects/teaching-ml-r/index.html",
+    "title": "Machine Learning in R Curriculum",
     "section": "",
-    "text": "Role: Senior Analyst, Advance Local"
+    "text": "Role: Adjunct Professor (promoted from Graduate Assistant), Montclair State University"
   },
   {
-    "objectID": "projects/survey-pipeline/index.html#the-problem",
-    "href": "projects/survey-pipeline/index.html#the-problem",
-    "title": "Automated Survey Data Pipeline",
-    "section": "The problem",
-    "text": "The problem\nSurvey data took 3–4 weeks to go from survey close to usable results, and preparing each survey took about 3 days of manual work."
+    "objectID": "projects/teaching-ml-r/index.html#overview",
+    "href": "projects/teaching-ml-r/index.html#overview",
+    "title": "Machine Learning in R Curriculum",
+    "section": "Overview",
+    "text": "Overview\nI developed a machine learning module covering regression and classification for master’s students, which led to my promotion from Graduate Assistant to Adjunct Professor."
   },
   {
-    "objectID": "projects/survey-pipeline/index.html#what-i-built",
-    "href": "projects/survey-pipeline/index.html#what-i-built",
-    "title": "Automated Survey Data Pipeline",
-    "section": "What I built",
-    "text": "What I built\n\nStandardized survey data processing with dbt/SQL pipelines in Snowflake\nGold-level data models that feed Power BI dashboards on audience engagement, revenue KPIs, and demographics\nA site-by-content-index heatmap in Power BI, with a DAX measure (using REMOVEFILTERS) that calculates the percentage of known users independent of demographic filters\nData governance: access controls and data quality checks across the pipelines and dashboards"
-  },
-  {
-    "objectID": "projects/survey-pipeline/index.html#results",
-    "href": "projects/survey-pipeline/index.html#results",
-    "title": "Automated Survey Data Pipeline",
-    "section": "Results",
-    "text": "Results\n\nTurnaround cut from 3–4 weeks to under 2 business days\nSurvey prep cut from 3 days to near-instant at survey close"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands."
-  },
-  {
-    "objectID": "resume.html#summary",
-    "href": "resume.html#summary",
-    "title": "Resume",
-    "section": "",
-    "text": "Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands."
-  },
-  {
-    "objectID": "resume.html#skills",
-    "href": "resume.html#skills",
-    "title": "Resume",
-    "section": "Skills",
-    "text": "Skills\n\nTechnical: Python, R, SQL, dbt, Snowflake, BigQuery, Power BI, Alteryx, Streamlit, Looker\nAI Tools: GitHub Copilot, Cursor, Claude, Cortex\nStatistical / Psychometric: Reliability and validity testing, t-tests, ANOVA, correlation, regression, Fisher’s Z transformation, assessment design and weighting\nDomain: People analytics, talent assessment, BI infrastructure, data governance, survey methodology"
-  },
-  {
-    "objectID": "resume.html#experience",
-    "href": "resume.html#experience",
-    "title": "Resume",
-    "section": "Experience",
-    "text": "Experience\n\nSenior Analyst (promoted from Data Analyst)\nAdvance Local · Remote | May 2023 – Present\n\nBuilt dbt/SQL pipelines in Snowflake that standardized survey data processing, cutting turnaround from 3–4 weeks to under 2 business days\nCut survey prep time from 3 days to near-instant upon survey close as part of the same pipeline work\nBuild gold-level data models/tables that feed Power BI dashboards tracking audience engagement, revenue KPIs, and audience demographics\nBuilt a Power BI heatmap (matrix visual) for site-by-content-index audience analysis, including a DAX measure using REMOVEFILTERS to calculate percentage of known users independent of demographic filter context\nOwn data governance for these pipelines and dashboards, enforcing access controls and running data quality checks\nUse AI tools daily (GitHub Copilot, Cursor, Claude, Cortex) to accelerate development and surface insights faster\n\n\n\nAnalyst, People Science\nHarver · Remote | April 2021 – February 2023\n\nDesigned and validated talent assessment batteries in partnership with client organizations\nAdministered assessments to current employees and collected manager performance ratings as part of the validation process\nDetermined assessment weighting based on validation results\nMonitored live hiring results and validated the reliability and predictive validity of assessments using t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\n\n\n\nAdjunct Professor (promoted from Graduate Assistant)\nMontclair State University · Remote | Aug 2020 – May 2021; Sep 2022 – Jan 2023\n\nPromoted from Graduate Assistant to Adjunct Professor after developing a machine learning module (regression, classification) for master’s students\nTaught multiple and logistic regression and machine learning in R to master’s and undergraduate students\nDesigned coursework combining theory with hands-on projects, encouraging students to apply statistical models to real-world data\nLed lectures on statistical methods (mean comparison, regression, chi-square, etc.) using R and RMarkdown\nProvided one-on-one support during office hours, ensuring student comprehension at all levels\nAssisted with projects in the Sociology Department\nCollaborated with faculty to align content with diversity, equity, and inclusion initiatives and curriculum goals\n\n\n\nIntern\ngothamCulture · New York City Metropolitan Area | August 2020 – May 2021\n\nSupported organizational culture projects by designing surveys, cleaning datasets, and generating insights that informed clients’ workplace strategies\nDesigned and analyzed surveys using SurveyMonkey, Excel, and R for the annual gothamCulture workplace report\nCreated visuals and dashboards to compare cultural trends across industries\nConducted research on best practices in workplace culture and provided clients with tailored recommendations\n\n\n\nRecruiting Intern (Part-Time)\nAffinity North · United States | January 2020 – August 2020\n\nEnsured a strong candidate experience; supported orientation and new hire activities\nPrepared candidate schedules, maintained candidate files and databases (PCR Database and Excel), and ensured compliance with applicable policies, procedures, and laws\nGenerated recruiting statistics reports and other ad hoc reports as needed\nSourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice\nAssisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS"
-  },
-  {
-    "objectID": "resume.html#conference-presentations",
-    "href": "resume.html#conference-presentations",
-    "title": "Resume",
-    "section": "Conference Presentations",
-    "text": "Conference Presentations\n\nKulas, J., DeFabiis, M., Osorio, C., & Russell, M. (2023). Construct and criterion-related validation of the bifactor engagement scale [Poster]. SIOP Annual Conference, Boston, MA. View\nRussell, M., Garcia Prieto Palacios Roji, R., Osorio-Duffoo, C., & Kulas, J. (2022). Development of an intended bifactor engagement measure [Poster]. SIOP Annual Conference, Seattle, WA. View"
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Resume",
-    "section": "Education",
-    "text": "Education\nMaster’s Degree, Industrial/Organizational Psychology · Montclair State University | 2021\nB.A., Psychology (Honors) · Seton Hall University | 2019"
+    "objectID": "projects/teaching-ml-r/index.html#what-i-taught",
+    "href": "projects/teaching-ml-r/index.html#what-i-taught",
+    "title": "Machine Learning in R Curriculum",
+    "section": "What I taught",
+    "text": "What I taught\n\nMultiple and logistic regression and machine learning in R\nStatistical methods (mean comparison, regression, chi-square) using R and RMarkdown\nHands-on projects where students applied statistical models to real-world data"
   },
   {
     "objectID": "projects/engagement-posters/index.html",
@@ -161,31 +98,150 @@
     "text": "Tools\nR: tidyverse, lavaan (CFA/bifactor models), semPlot, psych, DT, and posterdown for the posters themselves."
   },
   {
-    "objectID": "projects/teaching-ml-r/index.html",
-    "href": "projects/teaching-ml-r/index.html",
-    "title": "Machine Learning in R Curriculum",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "Role: Adjunct Professor (promoted from Graduate Assistant), Montclair State University"
+    "text": "Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands."
   },
   {
-    "objectID": "projects/teaching-ml-r/index.html#overview",
-    "href": "projects/teaching-ml-r/index.html#overview",
-    "title": "Machine Learning in R Curriculum",
+    "objectID": "resume.html#summary",
+    "href": "resume.html#summary",
+    "title": "Resume",
+    "section": "",
+    "text": "Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\n\nTechnical: Python, R, SQL, dbt, Snowflake, BigQuery, Power BI, Alteryx, Streamlit, Looker\nAI Tools: GitHub Copilot, Cursor, Claude, Cortex\nStatistical / Psychometric: Reliability and validity testing, t-tests, ANOVA, correlation, regression, Fisher’s Z transformation, assessment design and weighting\nDomain: People analytics, talent assessment, BI infrastructure, data governance, survey methodology"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\n\nSenior Analyst (promoted from Data Analyst)\nAdvance Local · Remote | May 2023 – Present\n\nBuilt dbt/SQL pipelines in Snowflake that standardized survey data processing, cutting turnaround from 3–4 weeks to under 2 business days\nCut survey prep time from 3 days to near-instant upon survey close as part of the same pipeline work\nBuild gold-level data models/tables that feed Power BI dashboards tracking audience engagement, revenue KPIs, and audience demographics\nBuilt a Power BI heatmap (matrix visual) for site-by-content-index audience analysis, including a DAX measure using REMOVEFILTERS to calculate percentage of known users independent of demographic filter context\nOwn data governance for these pipelines and dashboards, enforcing access controls and running data quality checks\nUse AI tools daily (GitHub Copilot, Cursor, Claude, Cortex) to accelerate development and surface insights faster\n\n\n\nAnalyst, People Science\nHarver · Remote | April 2021 – February 2023\n\nDesigned and validated talent assessment batteries in partnership with client organizations\nAdministered assessments to current employees and collected manager performance ratings as part of the validation process\nDetermined assessment weighting based on validation results\nMonitored live hiring results and validated the reliability and predictive validity of assessments using t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\n\n\n\nAdjunct Professor (promoted from Graduate Assistant)\nMontclair State University · Remote | Aug 2020 – May 2021; Sep 2022 – Jan 2023\n\nPromoted from Graduate Assistant to Adjunct Professor after developing a machine learning module (regression, classification) for master’s students\nTaught multiple and logistic regression and machine learning in R to master’s and undergraduate students\nDesigned coursework combining theory with hands-on projects, encouraging students to apply statistical models to real-world data\nLed lectures on statistical methods (mean comparison, regression, chi-square, etc.) using R and RMarkdown\nProvided one-on-one support during office hours, ensuring student comprehension at all levels\nAssisted with projects in the Sociology Department\nCollaborated with faculty to align content with diversity, equity, and inclusion initiatives and curriculum goals\n\n\n\nIntern\ngothamCulture · New York City Metropolitan Area | August 2020 – May 2021\n\nSupported organizational culture projects by designing surveys, cleaning datasets, and generating insights that informed clients’ workplace strategies\nDesigned and analyzed surveys using SurveyMonkey, Excel, and R for the annual gothamCulture workplace report\nCreated visuals and dashboards to compare cultural trends across industries\nConducted research on best practices in workplace culture and provided clients with tailored recommendations\n\n\n\nRecruiting Intern (Part-Time)\nAffinity North · United States | January 2020 – August 2020\n\nEnsured a strong candidate experience; supported orientation and new hire activities\nPrepared candidate schedules, maintained candidate files and databases (PCR Database and Excel), and ensured compliance with applicable policies, procedures, and laws\nGenerated recruiting statistics reports and other ad hoc reports as needed\nSourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice\nAssisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS"
+  },
+  {
+    "objectID": "resume.html#manuscripts",
+    "href": "resume.html#manuscripts",
+    "title": "Resume",
+    "section": "Manuscripts",
+    "text": "Manuscripts\n\nKulas, J., Osorio-Duffoo, C., DeFabiis, M., & Russell, M. Bought but partially sold? Measurement invariance across purchased and snowball samples [Unpublished manuscript]. View\nKulas, J., Garcia Prieto Palacios Roji, R., Osorio-Duffoo, C., Russell, M., & DeFabiis, M. Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement [Unpublished manuscript]. View"
+  },
+  {
+    "objectID": "resume.html#conference-presentations",
+    "href": "resume.html#conference-presentations",
+    "title": "Resume",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n\nKulas, J., DeFabiis, M., Osorio, C., & Russell, M. (2023). Construct and criterion-related validation of the bifactor engagement scale [Poster]. SIOP Annual Conference, Boston, MA. View\nRussell, M., Garcia Prieto Palacios Roji, R., Osorio-Duffoo, C., & Kulas, J. (2022). Development of an intended bifactor engagement measure [Poster]. SIOP Annual Conference, Seattle, WA. View"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\nMaster’s Degree, Industrial/Organizational Psychology · Montclair State University | 2021\nB.A., Psychology (Honors) · Seton Hall University | 2019"
+  },
+  {
+    "objectID": "projects/survey-pipeline/index.html",
+    "href": "projects/survey-pipeline/index.html",
+    "title": "Automated Survey Data Pipeline",
+    "section": "",
+    "text": "Role: Senior Analyst, Advance Local"
+  },
+  {
+    "objectID": "projects/survey-pipeline/index.html#the-problem",
+    "href": "projects/survey-pipeline/index.html#the-problem",
+    "title": "Automated Survey Data Pipeline",
+    "section": "The problem",
+    "text": "The problem\nSurvey data took 3–4 weeks to go from survey close to usable results, and preparing each survey took about 3 days of manual work."
+  },
+  {
+    "objectID": "projects/survey-pipeline/index.html#what-i-built",
+    "href": "projects/survey-pipeline/index.html#what-i-built",
+    "title": "Automated Survey Data Pipeline",
+    "section": "What I built",
+    "text": "What I built\n\nStandardized survey data processing with dbt/SQL pipelines in Snowflake\nGold-level data models that feed Power BI dashboards on audience engagement, revenue KPIs, and demographics\nA site-by-content-index heatmap in Power BI, with a DAX measure (using REMOVEFILTERS) that calculates the percentage of known users independent of demographic filters\nData governance: access controls and data quality checks across the pipelines and dashboards"
+  },
+  {
+    "objectID": "projects/survey-pipeline/index.html#results",
+    "href": "projects/survey-pipeline/index.html#results",
+    "title": "Automated Survey Data Pipeline",
+    "section": "Results",
+    "text": "Results\n\nTurnaround cut from 3–4 weeks to under 2 business days\nSurvey prep cut from 3 days to near-instant at survey close"
+  },
+  {
+    "objectID": "projects/assessment-validation/index.html",
+    "href": "projects/assessment-validation/index.html",
+    "title": "Talent Assessment Design & Validation",
+    "section": "",
+    "text": "Role: Analyst, People Science, Harver"
+  },
+  {
+    "objectID": "projects/assessment-validation/index.html#overview",
+    "href": "projects/assessment-validation/index.html#overview",
+    "title": "Talent Assessment Design & Validation",
     "section": "Overview",
-    "text": "Overview\nI developed a machine learning module covering regression and classification for master’s students, which led to my promotion from Graduate Assistant to Adjunct Professor."
+    "text": "Overview\nI designed talent assessment batteries with client organizations and validated that they actually predicted on-the-job performance."
   },
   {
-    "objectID": "projects/teaching-ml-r/index.html#what-i-taught",
-    "href": "projects/teaching-ml-r/index.html#what-i-taught",
-    "title": "Machine Learning in R Curriculum",
-    "section": "What I taught",
-    "text": "What I taught\n\nMultiple and logistic regression and machine learning in R\nStatistical methods (mean comparison, regression, chi-square) using R and RMarkdown\nHands-on projects where students applied statistical models to real-world data"
+    "objectID": "projects/assessment-validation/index.html#approach",
+    "href": "projects/assessment-validation/index.html#approach",
+    "title": "Talent Assessment Design & Validation",
+    "section": "Approach",
+    "text": "Approach\n\nData collection: Gave the assessments to current employees and collected manager performance ratings\nValidation: Tested reliability and predictive validity with t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\nWeighting: Set assessment weights based on validation results\nMonitoring: Tracked live hiring results to make sure assessments kept performing over time"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html",
+    "href": "projects/engagement-paper/index.html",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "",
+    "text": "Full title: Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement Authors: John Kulas, Renata Garcia Prieto Palacios Roji, Casey Osorio-Duffoo, Morgan Russell, & Mike DeFabiis Code: jtkulas/EngagementPaper"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#about-the-paper",
+    "href": "projects/engagement-paper/index.html#about-the-paper",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "About the paper",
+    "text": "About the paper\nEngagement is usually defined by three sub-dimensions: vigor, dedication, and absorption. Attitudes are usually split into cognitive, affective, and behavioral components. This paper develops and validates an 18-item measure that intentionally crosses both models, so every item captures one dimension from each."
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#data-methods",
+    "href": "projects/engagement-paper/index.html#data-methods",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "Data & methods",
+    "text": "Data & methods\n\nSnowball sample: 282 working adults, with items shown in four counterbalanced orders\nQualtrics panel: 343 adults saw items grouped by attitude; 404 saw items grouped by substantive dimension\nReliabilities ranged from α = 0.78 to 0.91 across the six subscales\nConfirmatory factor analyses across 1,025 respondents showed fair fit for both the substantive and attitudinal structures (RMSEA = 0.09)"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#key-findings",
+    "href": "projects/engagement-paper/index.html#key-findings",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "Key findings",
+    "text": "Key findings\n\nGrouping items by dimension gave respondents only slight cues about the structure; the item-order effect was small\nMeasurement invariance held across the four snowball-sample conditions, but not across all six conditions once the panel samples were added\nThe main source of misfit was the scale’s single reverse-coded item (“Thinking about work saps my energy”)"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#my-contributions",
+    "href": "projects/engagement-paper/index.html#my-contributions",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "My contributions",
+    "text": "My contributions\n\nAutomated cleaning of messy free-text survey responses (for example, “hours worked”) so the code works on new data as it arrives\nRecoded reverse-scored items, split and merged data across survey conditions, and ran item analysis\nBuilt interactive plots of results\nRan the confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn’t converge\nIn 2023, cleaned up the code base, documented each data source, and got the APA-formatted manuscript knitting to PDF"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#tools",
+    "href": "projects/engagement-paper/index.html#tools",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "Tools",
+    "text": "Tools\nR, R Markdown, papaja (APA-formatted manuscripts), lavaan, tidyverse, LaTeX, Git/GitHub"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Automated Survey Data Pipeline\n\n\n\ndbt\n\nSQL\n\nSnowflake\n\nPower BI\n\n\n\ndbt/SQL pipelines in Snowflake that cut survey turnaround from 3–4 weeks to under 2 business days.\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nEngagement Paper: Bifactor Measure Development & Measurement Invariance\n\n\n\nR\n\npsychometrics\n\nresearch\n\ndata cleaning\n\n\n\nCo-authored research manuscript on a new engagement measure, plus R pipelines for data cleaning, CFA, and measurement invariance.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBifactor Engagement Measure: SIOP 2022 & 2023 Posters\n\n\n\nR\n\npsychometrics\n\npeople analytics\n\nresearch\n\n\n\nTwo conference posters on developing and validating a new employee engagement survey, built with R and posterdown.\n\n\n\nApr 19, 2023\n\n\n\n\n\n\n\n\n\n\n\nTalent Assessment Design & Validation\n\n\n\npeople analytics\n\npsychometrics\n\nstatistics\n\n\n\nDesigning and statistically validating pre-hire assessment batteries with client organizations.\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in R Curriculum\n\n\n\nR\n\nmachine learning\n\nteaching\n\n\n\nA regression and classification module for master’s students at Montclair State University.\n\n\n\nMay 1, 2021\n\n\n\n\n\n\nNo matching items"
+    "text": "Automated Survey Data Pipeline\n\n\n\ndbt\n\nSQL\n\nSnowflake\n\nPower BI\n\n\n\ndbt/SQL pipelines in Snowflake that cut survey turnaround from 3–4 weeks to under 2 business days.\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nEngagement as Attitude: A Bifactor Measure of Employee Engagement\n\n\n\nR\n\npsychometrics\n\nresearch\n\nCFA\n\n\n\nCo-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\nBought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples\n\n\n\nR\n\npsychometrics\n\nresearch\n\nmeasurement invariance\n\n\n\nSecond-author manuscript testing whether paid online panels and volunteer samples answer the same survey the same way.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBifactor Engagement Measure: SIOP 2022 & 2023 Posters\n\n\n\nR\n\npsychometrics\n\npeople analytics\n\nresearch\n\n\n\nTwo conference posters on developing and validating a new employee engagement survey, built with R and posterdown.\n\n\n\nApr 19, 2023\n\n\n\n\n\n\n\n\n\n\n\nTalent Assessment Design & Validation\n\n\n\npeople analytics\n\npsychometrics\n\nstatistics\n\n\n\nDesigning and statistically validating pre-hire assessment batteries with client organizations.\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in R Curriculum\n\n\n\nR\n\nmachine learning\n\nteaching\n\n\n\nA regression and classification module for master’s students at Montclair State University.\n\n\n\nMay 1, 2021\n\n\n\n\n\n\nNo matching items"
   }
 ]

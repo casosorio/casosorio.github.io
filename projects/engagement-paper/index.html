@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-06-10">
-<meta name="description" content="Co-authored research manuscript on a new engagement measure, plus R pipelines for data cleaning, CFA, and measurement invariance.">
+<meta name="description" content="Co-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R.">
 
-<title>Engagement Paper: Bifactor Measure Development &amp; Measurement Invariance – Casey Osorio</title>
+<title>Engagement as Attitude: A Bifactor Measure of Employee Engagement – Casey Osorio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -310,18 +310,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Engagement Paper: Bifactor Measure Development &amp; Measurement Invariance</h1>
+<h1 class="title">Engagement as Attitude: A Bifactor Measure of Employee Engagement</h1>
   <div class="quarto-categories">
     <div class="quarto-category">R</div>
     <div class="quarto-category">psychometrics</div>
     <div class="quarto-category">research</div>
-    <div class="quarto-category">data cleaning</div>
+    <div class="quarto-category">CFA</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Co-authored research manuscript on a new engagement measure, plus R pipelines for data cleaning, CFA, and measurement invariance.
+    Co-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R.
   </div>
 </div>
 
@@ -344,38 +344,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Working title:</strong> <em>Development and validation of a prescriptive bi-factor measure of employee engagement</em> <strong>Authors:</strong> John Kulas, Renata Garcia Prieto Palacios Roji, Casey Osorio-Duffoo, Mike DeFabiis, Morgan Russell <strong>Status:</strong> Manuscript in progress <strong>Code:</strong> <a href="https://github.com/jtkulas/EngagementPaper">jtkulas/EngagementPaper</a></p>
+<p><strong>Full title:</strong> <em>Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement</em> <strong>Authors:</strong> John Kulas, Renata Garcia Prieto Palacios Roji, <strong>Casey Osorio-Duffoo</strong>, Morgan Russell, &amp; Mike DeFabiis <strong>Code:</strong> <a href="https://github.com/jtkulas/EngagementPaper">jtkulas/EngagementPaper</a></p>
 <section id="about-the-paper" class="level2">
 <h2 class="anchored" data-anchor-id="about-the-paper">About the paper</h2>
-<p>Engagement is often described by its sub-dimensions (vigor, dedication, absorption). Attitudes, meanwhile, are often split into cognitive, affective, and behavioral components. This paper documents how we built a measure that intentionally crosses those two models:</p>
-<ol type="1">
-<li><strong>72 → 36 items</strong> through content validation</li>
-<li><strong>36 → 20 items</strong> after piloting with a snowball sample of 330 respondents</li>
-<li><strong>20 → 18 items</strong> after a further administration to 743 Prolific respondents</li>
-</ol>
-<p>The final scale shows moderately good bifactor fit. It can be scored two ways: by substantive dimension (useful to researchers) or by attitude component (useful to practitioners).</p>
-<p>A companion study, <em>“Bought but Partially Sold? Measurement Invariance across Purchased and Snowball Samples,”</em> tests whether people from volunteer, Qualtrics, and Prolific samples interpret the survey the same way.</p>
+<p>Engagement is usually defined by three sub-dimensions: vigor, dedication, and absorption. Attitudes are usually split into cognitive, affective, and behavioral components. This paper develops and validates an 18-item measure that intentionally <strong>crosses both models</strong>, so every item captures one dimension from each.</p>
+</section>
+<section id="data-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-methods">Data &amp; methods</h2>
+<ul>
+<li><strong>Snowball sample:</strong> 282 working adults, with items shown in four counterbalanced orders</li>
+<li><strong>Qualtrics panel:</strong> 343 adults saw items grouped by attitude; 404 saw items grouped by substantive dimension</li>
+<li>Reliabilities ranged from α = 0.78 to 0.91 across the six subscales</li>
+<li>Confirmatory factor analyses across 1,025 respondents showed fair fit for both the substantive and attitudinal structures (RMSEA = 0.09)</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>Grouping items by dimension gave respondents only slight cues about the structure; the item-order effect was small</li>
+<li>Measurement invariance held across the four snowball-sample conditions, but not across all six conditions once the panel samples were added</li>
+<li>The main source of misfit was the scale’s single reverse-coded item (“Thinking about work saps my energy”)</li>
+</ul>
 </section>
 <section id="my-contributions" class="level2">
 <h2 class="anchored" data-anchor-id="my-contributions">My contributions</h2>
-<p>I’m one of the top contributors to the repository, with 41 commits across two phases:</p>
-<p><strong>Data cleaning and analysis (2020–2021)</strong></p>
 <ul>
-<li>Automated cleaning of messy free-text survey responses (for example, “hours worked”) so the code works on new data as it comes in</li>
+<li>Automated cleaning of messy free-text survey responses (for example, “hours worked”) so the code works on new data as it arrives</li>
 <li>Recoded reverse-scored items, split and merged data across survey conditions, and ran item analysis</li>
 <li>Built interactive plots of results</li>
-<li>Ran confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn’t converge</li>
-</ul>
-<p><strong>Reproducible pipeline (2023)</strong></p>
-<ul>
-<li>Cleaned up the code base and documented each data source (sample, response dates)</li>
-<li>Combined all survey samples into a single analysis data frame for the measurement invariance analysis</li>
-<li>Fixed the CFA code to run on the cleaned data and got the APA-formatted manuscript knitting to PDF again</li>
+<li>Ran the confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn’t converge</li>
+<li>In 2023, cleaned up the code base, documented each data source, and got the APA-formatted manuscript knitting to PDF</li>
 </ul>
 </section>
 <section id="tools" class="level2">
 <h2 class="anchored" data-anchor-id="tools">Tools</h2>
-<p>R, R Markdown, <code>papaja</code> (APA-formatted manuscripts), <code>lavaan</code>, <code>tidyverse</code>, LaTeX, Git/GitHub for collaboration across five authors.</p>
+<p>R, R Markdown, <code>papaja</code> (APA-formatted manuscripts), <code>lavaan</code>, <code>tidyverse</code>, LaTeX, Git/GitHub</p>
 
 
 </section>
