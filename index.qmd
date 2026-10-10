@@ -1,22 +1,55 @@
 ---
-title: "Casey Osorio"
-subtitle: "Senior Data Analyst · People Analytics · BI Engineering"
-about:
-  template: jolla
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/casosorio
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/casey-osorio-duffoo
-    - icon: envelope
-      text: Email
-      href: mailto:caseyosorio@gmail.com
+pagetitle: "Casey Osorio | Data Analyst & People Analytics"
+page-layout: full
+listing:
+  id: featured
+  contents:
+    - projects/engagement-posters/index.qmd
+    - projects/state-of-culture-2021/index.qmd
+    - projects/engagement-paper/index.qmd
+  type: grid
+  grid-columns: 3
+  fields: [image, title, description]
+  sort: false
 ---
 
-I'm a data analyst whose work spans BI infrastructure, data engineering, and people analytics. I build production dbt/SQL pipelines and Power BI dashboards, and I bring graduate training in Industrial/Organizational Psychology to the statistical side, designing and validating talent assessments with reliability, validity, and significance testing.
+::: {.content-block style="max-width: 1100px; margin: 0 auto;"}
 
-**Currently:** Senior Analyst at Advance Local.
+```{=html}
+<section class="hero">
+  <div class="hero-photo">
+    <span class="initials">CO</span>
+    <img src="files/profile.jpg" alt="Photo of Casey Osorio" onerror="this.remove()">
+  </div>
+  <div class="hero-text">
+    <p class="eyebrow">Senior Data Analyst · People Analytics</p>
+    <h1>Hi, I'm Casey.</h1>
+    <p class="lead">I turn survey and business data into decisions. I build production dbt/SQL pipelines and Power BI dashboards, and bring graduate training in Industrial/Organizational Psychology to the statistics: reliability, validity, and significance testing.</p>
+    <div class="hero-buttons">
+      <a class="btn btn-primary" href="projects.html">See my projects</a>
+      <a class="btn btn-outline-primary" href="resume.html">View my resume</a>
+    </div>
+    <div class="hero-links">
+      <a href="https://github.com/casosorio" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/casey-osorio-duffoo" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:caseyosorio@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </div>
+</section>
 
-[See my projects](projects.qmd){.btn .btn-primary} [View my resume](resume.qmd){.btn .btn-outline-primary}
+<section class="stats">
+  <div class="stat"><span class="num">5+</span><span class="label">years in analytics</span></div>
+  <div class="stat"><span class="num">2</span><span class="label">SIOP conference posters</span></div>
+  <div class="stat"><span class="num">1</span><span class="label">published industry report</span></div>
+  <div class="stat"><span class="num">2</span><span class="label">research manuscripts</span></div>
+</section>
+```
+
+## Featured projects
+
+::: {#featured}
+:::
+
+[See all projects →](projects.qmd)
+
+:::

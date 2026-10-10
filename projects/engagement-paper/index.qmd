@@ -2,7 +2,8 @@
 title: "Engagement as Attitude: A Bifactor Measure of Employee Engagement"
 description: "Co-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R."
 date: 2023-06-10
-categories: [R, psychometrics, research, CFA]
+categories: [Psychometrics, R]
+image: thumbnail.png
 ---
 
 **Full title:** *Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement*
@@ -19,6 +20,37 @@ Engagement is usually defined by three sub-dimensions: vigor, dedication, and ab
 - **Qualtrics panel:** 343 adults saw items grouped by attitude; 404 saw items grouped by substantive dimension
 - Reliabilities ranged from α = 0.78 to 0.91 across the six subscales
 - Confirmatory factor analyses across 1,025 respondents showed fair fit for both the substantive and attitudinal structures (RMSEA = 0.09)
+
+```{r}
+#| echo: false
+#| message: false
+#| fig-alt: "Lollipop chart of reliability (Cronbach's alpha) for six subscales, from 0.78 (Vigor, Affect) to 0.91 (Dedication)."
+library(ggplot2)
+
+alphas <- data.frame(
+  scale = c("Absorption", "Dedication", "Vigor", "Affect", "Cognition", "Behavior"),
+  model = rep(c("Substantive", "Attitudinal"), each = 3),
+  alpha = c(0.81, 0.91, 0.78, 0.78, 0.89, 0.83)
+)
+alphas$scale <- factor(alphas$scale, levels = rev(alphas$scale))
+
+p <- ggplot(alphas, aes(alpha, scale, color = model)) +
+  geom_vline(xintercept = 0.70, linetype = "dashed", color = "grey60") +
+  geom_segment(aes(x = 0.6, xend = alpha, yend = scale), linewidth = 1.4) +
+  geom_point(size = 6) +
+  geom_text(aes(label = sprintf("%.2f", alpha)), color = "white", size = 2.6, fontface = "bold") +
+  annotate("text", x = 0.705, y = 6.45, label = "0.70 benchmark", hjust = 0, size = 3.4, color = "grey40") +
+  scale_color_manual(values = c(Substantive = "#1E3A5F", Attitudinal = "#F26B5B")) +
+  scale_x_continuous(limits = c(0.6, 1), expand = c(0, 0)) +
+  labs(x = "Reliability (Cronbach's alpha)", y = NULL, color = NULL,
+       title = "All six subscales showed good reliability") +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "top", panel.grid.major.y = element_blank(),
+        plot.title = element_text(face = "bold", color = "#1E3A5F"))
+
+ggsave("thumbnail.png", p, width = 8, height = 5, dpi = 150, bg = "white")
+p
+```
 
 ## Key findings
 

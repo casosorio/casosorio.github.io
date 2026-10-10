@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+$navy-light: #9DBCE3;
+$coral: #F58A7D;
+$body-bg: #0F1724;
+$body-color: #E5E9F0;
+$primary: $navy-light;
+$link-color: $navy-light;
+$headings-color: #F1F5F9;
+$navbar-bg: #0F1724;
+$navbar-fg: #E5E9F0;
+$navbar-hl: $coral;
+$footer-bg: #0F1724;
+
+/*-- scss:rules --*/
+:root {
+  --navy: #{$navy-light};
+  --coral: #{$coral};
+  --coral-soft: rgba(245, 138, 125, 0.16);
+  --surface: #172234;
+  --muted: #A3AEBD;
+  --card-bg: #142033;
+  --card-border: #26344A;
+}
+.btn-primary { background: #2E5A8C !important; border-color: #2E5A8C !important; color: #fff !important; }
+.btn-outline-primary { color: var(--navy) !important; border-color: var(--navy) !important; }
+.btn-outline-primary:hover { background: var(--navy) !important; color: #0F1724 !important; }
+.quarto-grid-item .listing-categories .listing-category,
+.quarto-listing-category .category { color: #F8B4AA !important; }
+.hero-photo { box-shadow: 12px 12px 0 rgba(245, 138, 125, 0.25) !important; }

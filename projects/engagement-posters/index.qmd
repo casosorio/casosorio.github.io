@@ -2,8 +2,8 @@
 title: "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters"
 description: "Two conference posters on developing and validating a new employee engagement survey, built with R and posterdown."
 date: 2023-04-19
-categories: [R, psychometrics, people analytics, research]
-image: siop-2023-poster.png
+categories: [Psychometrics, People Analytics, R]
+image: thumbnail.png
 ---
 
 **Conferences:** Society for Industrial and Organizational Psychology (SIOP) Annual Conference, Seattle 2022 & Boston 2023

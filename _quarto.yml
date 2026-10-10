@@ -22,11 +22,12 @@ website:
       - icon: envelope
         href: mailto:caseyosorio@gmail.com
   page-footer:
-    center: "© 2026 Casey Osorio · Built with R + Quarto"
+    left: "© 2026 Casey Osorio"
+    right: "Built with R + Quarto"
 
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: [cosmo, custom.scss]
+      dark: [darkly, custom.scss, custom-dark.scss]
     toc: false

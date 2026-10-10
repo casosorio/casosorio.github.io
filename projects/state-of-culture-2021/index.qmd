@@ -2,7 +2,7 @@
 title: "2021 State of Culture Report"
 description: "Co-authored gothamCulture's first annual global study of organizational culture during COVID-19, with survey data from 241 respondents across 200+ organizations."
 date: 2021-05-01
-categories: [survey research, organizational culture, data analysis]
+categories: [Survey Research, People Analytics]
 image: thumbnail.png
 ---
 
@@ -42,15 +42,16 @@ p <- ggplot(scores, aes(dimension, score, fill = group)) +
   geom_col(position = position_dodge(width = 0.75), width = 0.7) +
   geom_text(aes(label = score), position = position_dodge(width = 0.75),
             vjust = -0.5, size = 4.5) +
-  scale_fill_manual(values = c("#9aa5b1", "#2c7be5")) +
+  scale_fill_manual(values = c("#9AA5B1", "#F26B5B")) +
   scale_y_continuous(limits = c(0, 90), expand = c(0, 0)) +
   labs(x = NULL, y = "Average Culture Mosaic score", fill = NULL,
        title = "Organizations that innovated during COVID-19 scored higher",
        caption = "Source: 2021 State of Culture Report (gothamCulture)") +
   theme_minimal(base_size = 13) +
-  theme(legend.position = "top", panel.grid.major.x = element_blank())
+  theme(legend.position = "top", panel.grid.major.x = element_blank(),
+        plot.title = element_text(face = "bold", color = "#1E3A5F"))
 
-ggsave("thumbnail.png", p, width = 7, height = 4.5, dpi = 100, bg = "white")
+ggsave("thumbnail.png", p, width = 8, height = 5, dpi = 150, bg = "white")
 p
 ```
 

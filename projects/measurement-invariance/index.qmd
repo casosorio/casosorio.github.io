@@ -2,7 +2,8 @@
 title: "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples"
 description: "Second-author manuscript testing whether paid online panels and volunteer samples answer the same survey the same way."
 date: 2023-06-10
-categories: [R, psychometrics, research, measurement invariance]
+categories: [Psychometrics, Survey Research, R]
+image: thumbnail.png
 ---
 
 **Authors:** John Kulas, **Casey Osorio-Duffoo**, Mike DeFabiis, & Morgan Russell
@@ -22,6 +23,34 @@ We tested the measurement invariance of our 18-item engagement survey (see the [
 3. Prolific panel, cleaned (from 785 respondents)
 4. Qualtrics respondents flagged as careless
 5. Prolific respondents flagged as careless
+
+```{r}
+#| echo: false
+#| message: false
+#| fig-alt: "Bar chart of respondents by sample source: Prolific 785, Qualtrics 743, volunteer snowball 232."
+library(ggplot2)
+
+samples <- data.frame(
+  source = c("Volunteer (snowball)", "Qualtrics panel", "Prolific panel"),
+  type = c("Volunteer", "Purchased", "Purchased"),
+  n = c(232, 743, 785)
+)
+samples$source <- factor(samples$source, levels = samples$source[order(samples$n)])
+
+p <- ggplot(samples, aes(n, source, fill = type)) +
+  geom_col(width = 0.6) +
+  geom_text(aes(label = scales::comma(n)), hjust = -0.2, size = 5, fontface = "bold", color = "#1E3A5F") +
+  scale_fill_manual(values = c(Volunteer = "#F26B5B", Purchased = "#1E3A5F")) +
+  scale_x_continuous(limits = c(0, 900), expand = c(0, 0)) +
+  labs(x = "Respondents (before careless-responder screening)", y = NULL, fill = NULL,
+       title = "Purchased vs. volunteer samples compared") +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "top", panel.grid.major.y = element_blank(),
+        plot.title = element_text(face = "bold", color = "#1E3A5F"))
+
+ggsave("thumbnail.png", p, width = 8, height = 5, dpi = 150, bg = "white")
+p
+```
 
 Using multi-group confirmatory factor analysis in `lavaan`, we compared configural, metric, and scalar models to see where the samples' responses diverged.
 

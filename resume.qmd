@@ -1,5 +1,6 @@
 ---
 title: "Resume"
+subtitle: "Data analytics · People analytics · Psychometrics"
 ---
 
 ## Summary
@@ -8,15 +9,39 @@ Data analyst with a background spanning BI infrastructure, data engineering, and
 
 ## Skills
 
-- **Technical:** Python, R, SQL, dbt, Snowflake, BigQuery, Power BI, Alteryx, Streamlit, Looker
-- **AI Tools:** GitHub Copilot, Cursor, Claude, Cortex
-- **Statistical / Psychometric:** Reliability and validity testing, t-tests, ANOVA, correlation, regression, Fisher's Z transformation, assessment design and weighting
-- **Domain:** People analytics, talent assessment, BI infrastructure, data governance, survey methodology
+::: {.skill-row}
+**Technical**
+
+[Python]{.skill} [R]{.skill} [SQL]{.skill} [dbt]{.skill} [Snowflake]{.skill} [BigQuery]{.skill} [Power BI]{.skill} [Alteryx]{.skill} [Streamlit]{.skill} [Looker]{.skill}
+:::
+
+::: {.skill-row}
+**AI Tools**
+
+[GitHub Copilot]{.skill} [Cursor]{.skill} [Claude]{.skill} [Cortex]{.skill}
+:::
+
+::: {.skill-row}
+**Statistical / Psychometric**
+
+[Reliability and validity testing]{.skill} [t-tests]{.skill} [ANOVA]{.skill} [correlation]{.skill} [regression]{.skill} [Fisher's Z transformation]{.skill} [assessment design and weighting]{.skill}
+:::
+
+::: {.skill-row}
+**Domain**
+
+[People analytics]{.skill} [talent assessment]{.skill} [BI infrastructure]{.skill} [data governance]{.skill} [survey methodology]{.skill}
+:::
 
 ## Experience
 
+:::: {.timeline}
+::: {.timeline-item}
 ### Senior Analyst (promoted from Data Analyst)
-**Advance Local** · Remote | *May 2023 – Present*
+
+::: {.meta}
+**Advance Local** · Remote · May 2023 – Present
+:::
 
 - Built dbt/SQL pipelines in Snowflake that standardized survey data processing, cutting turnaround from 3–4 weeks to under 2 business days
 - Cut survey prep time from 3 days to near-instant upon survey close as part of the same pipeline work
@@ -24,17 +49,27 @@ Data analyst with a background spanning BI infrastructure, data engineering, and
 - Built a Power BI heatmap (matrix visual) for site-by-content-index audience analysis, including a DAX measure using REMOVEFILTERS to calculate percentage of known users independent of demographic filter context
 - Own data governance for these pipelines and dashboards, enforcing access controls and running data quality checks
 - Use AI tools daily (GitHub Copilot, Cursor, Claude, Cortex) to accelerate development and surface insights faster
+:::
 
+::: {.timeline-item}
 ### Analyst, People Science
-**Harver** · Remote | *April 2021 – February 2023*
+
+::: {.meta}
+**Harver** · Remote · April 2021 – February 2023
+:::
 
 - Designed and validated talent assessment batteries in partnership with client organizations
 - Administered assessments to current employees and collected manager performance ratings as part of the validation process
 - Determined assessment weighting based on validation results
 - Monitored live hiring results and validated the reliability and predictive validity of assessments using t-tests, ANOVA, correlation, regression, and Fisher's Z transformation
+:::
 
+::: {.timeline-item}
 ### Adjunct Professor (promoted from Graduate Assistant)
-**Montclair State University** · Remote | *Aug 2020 – May 2021; Sep 2022 – Jan 2023*
+
+::: {.meta}
+**Montclair State University** · Remote · Aug 2020 – May 2021; Sep 2022 – Jan 2023
+:::
 
 - Promoted from Graduate Assistant to Adjunct Professor after developing a machine learning module (regression, classification) for master's students
 - Taught multiple and logistic regression and machine learning in R to master's and undergraduate students
@@ -43,23 +78,35 @@ Data analyst with a background spanning BI infrastructure, data engineering, and
 - Provided one-on-one support during office hours, ensuring student comprehension at all levels
 - Assisted with projects in the Sociology Department
 - Collaborated with faculty to align content with diversity, equity, and inclusion initiatives and curriculum goals
+:::
 
+::: {.timeline-item}
 ### Intern
-**gothamCulture** · New York City Metropolitan Area | *August 2020 – May 2021*
+
+::: {.meta}
+**gothamCulture** · New York City Metropolitan Area · August 2020 – May 2021
+:::
 
 - Supported organizational culture projects by designing surveys, cleaning datasets, and generating insights that informed clients' workplace strategies
 - Designed and analyzed surveys using SurveyMonkey, Excel, and R for the annual gothamCulture workplace report
 - Created visuals and dashboards to compare cultural trends across industries
 - Conducted research on best practices in workplace culture and provided clients with tailored recommendations
+:::
 
+::: {.timeline-item}
 ### Recruiting Intern (Part-Time)
-**Affinity North** · United States | *January 2020 – August 2020*
+
+::: {.meta}
+**Affinity North** · United States · January 2020 – August 2020
+:::
 
 - Ensured a strong candidate experience; supported orientation and new hire activities
 - Prepared candidate schedules, maintained candidate files and databases (PCR Database and Excel), and ensured compliance with applicable policies, procedures, and laws
 - Generated recruiting statistics reports and other ad hoc reports as needed
 - Sourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice
 - Assisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS
+:::
+::::
 
 ## Publications & Manuscripts
 
