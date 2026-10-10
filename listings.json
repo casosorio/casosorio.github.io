@@ -7,5 +7,13 @@
       "/projects/engagement-posters/index.html",
       "/projects/state-of-culture-2021/index.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projects/engagement-posters/index.html",
+      "/projects/state-of-culture-2021/index.html",
+      "/projects/engagement-paper/index.html"
+    ]
   }
 ]

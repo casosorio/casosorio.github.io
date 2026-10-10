@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Casey Osorio</title>
+<title>Casey Osorio | Data Analyst &amp; People Analytics – Casey Osorio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,19 +36,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-df07115ad9f15e2ef3479c789e6873c8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e7e12972d3fdf651b32424ddcba134da.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7f354027a1c93776e464c7e6af05c7e6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e7e12972d3fdf651b32424ddcba134da.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,11 +79,69 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -301,44 +362,108 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Casey Osorio</h1>
-<p class="subtitle lead">Senior Data Analyst · People Analytics · BI Engineering</p>
-</div>
-<div class="quarto-title-meta">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+
+<div class="content-block" style="max-width: 1100px; margin: 0 auto;">
+<section class="hero">
+  <div class="hero-photo">
+    <span class="initials">CO</span>
+    <img src="files/profile.jpg" alt="Photo of Casey Osorio" onerror="this.remove()">
   </div>
-</header><main class="content" id="quarto-document-content">
+  <div class="hero-text">
+    <p class="eyebrow">Senior Data Analyst · People Analytics</p>
+    <h1>Hi, I'm Casey.</h1>
+    <p class="lead">I turn survey and business data into decisions. I build production dbt/SQL pipelines and Power BI dashboards, and bring graduate training in Industrial/Organizational Psychology to the statistics: reliability, validity, and significance testing.</p>
+    <div class="hero-buttons">
+      <a class="btn btn-primary" href="projects.html">See my projects</a>
+      <a class="btn btn-outline-primary" href="resume.html">View my resume</a>
+    </div>
+    <div class="hero-links">
+      <a href="https://github.com/casosorio" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/casey-osorio-duffoo" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:caseyosorio@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </div>
+</section>
 
-<p>I’m a data analyst whose work spans BI infrastructure, data engineering, and people analytics. I build production dbt/SQL pipelines and Power BI dashboards, and I bring graduate training in Industrial/Organizational Psychology to the statistical side, designing and validating talent assessments with reliability, validity, and significance testing.</p>
-<p><strong>Currently:</strong> Senior Analyst at Advance Local.</p>
-<p><a href="./projects.html" class="btn btn-primary">See my projects</a> <a href="./resume.html" class="btn btn-outline-primary">View my resume</a></p>
-
-
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/casosorio" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://www.linkedin.com/in/casey-osorio-duffoo" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="mailto:caseyosorio@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+<section class="stats">
+  <div class="stat"><span class="num">5+</span><span class="label">years in analytics</span></div>
+  <div class="stat"><span class="num">2</span><span class="label">SIOP conference posters</span></div>
+  <div class="stat"><span class="num">1</span><span class="label">published industry report</span></div>
+  <div class="stat"><span class="num">2</span><span class="label">research manuscripts</span></div>
+</section>
+<section id="featured-projects" class="level2">
+<h2 class="anchored" data-anchor-id="featured-projects">Featured projects</h2>
+<div id="listing-featured" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UHN5Y2hvbWV0cmljcyUyQ1Blb3BsZSUyMEFuYWx5dGljcyUyQ1I=" data-listing-date-sort="1681876800000" data-listing-file-modified-sort="1791603780619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+<a href="./projects/engagement-posters/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/engagement-posters/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bifactor Engagement Measure: SIOP 2022 &amp; 2023 Posters
+</h5>
+<div class="card-text listing-description delink">
+<p>Two conference posters on developing and validating a new employee engagement survey, built with R and posterdown.</p>
 </div>
 </div>
- <!-- /main -->
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="U3VydmV5JTIwUmVzZWFyY2glMkNQZW9wbGUlMjBBbmFseXRpY3M=" data-listing-date-sort="1619841600000" data-listing-file-modified-sort="1791603797803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="488">
+<a href="./projects/state-of-culture-2021/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/state-of-culture-2021/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2021 State of Culture Report
+</h5>
+<div class="card-text listing-description delink">
+<p>Co-authored gothamCulture’s first annual global study of organizational culture during COVID-19, with survey data from 241 respondents across 200+ organizations.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UHN5Y2hvbWV0cmljcyUyQ1I=" data-listing-date-sort="1686369600000" data-listing-file-modified-sort="1791603797803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="494">
+<a href="./projects/engagement-paper/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/engagement-paper/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Engagement as Attitude: A Bifactor Measure of Employee Engagement
+</h5>
+<div class="card-text listing-description delink">
+<p>Co-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a href="./projects.html">See all projects →</a></p>
+</section>
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -354,6 +479,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -749,14 +881,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>© 2026 Casey Osorio</p>
+</div>   
     <div class="nav-footer-center">
-<p>© 2026 Casey Osorio · Built with R + Quarto</p>
-</div>
-    <div class="nav-footer-right">
       &nbsp;
     </div>
+    <div class="nav-footer-right">
+<p>Built with R + Quarto</p>
+</div>
   </div>
 </footer>
 
