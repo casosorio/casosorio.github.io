@@ -7,25 +7,53 @@
     "text": "I’m a data analyst whose work spans BI infrastructure, data engineering, and people analytics. I build production dbt/SQL pipelines and Power BI dashboards, and I bring graduate training in Industrial/Organizational Psychology to the statistical side, designing and validating talent assessments with reliability, validity, and significance testing.\nCurrently: Senior Analyst at Advance Local.\nSee my projects View my resume"
   },
   {
-    "objectID": "projects/teaching-ml-r/index.html",
-    "href": "projects/teaching-ml-r/index.html",
-    "title": "Machine Learning in R Curriculum",
+    "objectID": "projects/engagement-paper/index.html",
+    "href": "projects/engagement-paper/index.html",
+    "title": "Engagement Paper: Bifactor Measure Development & Measurement Invariance",
     "section": "",
-    "text": "Role: Adjunct Professor (promoted from Graduate Assistant), Montclair State University"
+    "text": "Working title: Development and validation of a prescriptive bi-factor measure of employee engagement Authors: John Kulas, Renata Garcia Prieto Palacios Roji, Casey Osorio-Duffoo, Mike DeFabiis, Morgan Russell Status: Manuscript in progress Code: jtkulas/EngagementPaper"
   },
   {
-    "objectID": "projects/teaching-ml-r/index.html#overview",
-    "href": "projects/teaching-ml-r/index.html#overview",
-    "title": "Machine Learning in R Curriculum",
+    "objectID": "projects/engagement-paper/index.html#about-the-paper",
+    "href": "projects/engagement-paper/index.html#about-the-paper",
+    "title": "Engagement Paper: Bifactor Measure Development & Measurement Invariance",
+    "section": "About the paper",
+    "text": "About the paper\nEngagement is often described by its sub-dimensions (vigor, dedication, absorption). Attitudes, meanwhile, are often split into cognitive, affective, and behavioral components. This paper documents how we built a measure that intentionally crosses those two models:\n\n72 → 36 items through content validation\n36 → 20 items after piloting with a snowball sample of 330 respondents\n20 → 18 items after a further administration to 743 Prolific respondents\n\nThe final scale shows moderately good bifactor fit. It can be scored two ways: by substantive dimension (useful to researchers) or by attitude component (useful to practitioners).\nA companion study, “Bought but Partially Sold? Measurement Invariance across Purchased and Snowball Samples,” tests whether people from volunteer, Qualtrics, and Prolific samples interpret the survey the same way."
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#my-contributions",
+    "href": "projects/engagement-paper/index.html#my-contributions",
+    "title": "Engagement Paper: Bifactor Measure Development & Measurement Invariance",
+    "section": "My contributions",
+    "text": "My contributions\nI’m one of the top contributors to the repository, with 41 commits across two phases:\nData cleaning and analysis (2020–2021)\n\nAutomated cleaning of messy free-text survey responses (for example, “hours worked”) so the code works on new data as it comes in\nRecoded reverse-scored items, split and merged data across survey conditions, and ran item analysis\nBuilt interactive plots of results\nRan confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn’t converge\n\nReproducible pipeline (2023)\n\nCleaned up the code base and documented each data source (sample, response dates)\nCombined all survey samples into a single analysis data frame for the measurement invariance analysis\nFixed the CFA code to run on the cleaned data and got the APA-formatted manuscript knitting to PDF again"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#tools",
+    "href": "projects/engagement-paper/index.html#tools",
+    "title": "Engagement Paper: Bifactor Measure Development & Measurement Invariance",
+    "section": "Tools",
+    "text": "Tools\nR, R Markdown, papaja (APA-formatted manuscripts), lavaan, tidyverse, LaTeX, Git/GitHub for collaboration across five authors."
+  },
+  {
+    "objectID": "projects/assessment-validation/index.html",
+    "href": "projects/assessment-validation/index.html",
+    "title": "Talent Assessment Design & Validation",
+    "section": "",
+    "text": "Role: Analyst, People Science, Harver"
+  },
+  {
+    "objectID": "projects/assessment-validation/index.html#overview",
+    "href": "projects/assessment-validation/index.html#overview",
+    "title": "Talent Assessment Design & Validation",
     "section": "Overview",
-    "text": "Overview\nI developed a machine learning module covering regression and classification for master’s students, which led to my promotion from Graduate Assistant to Adjunct Professor."
+    "text": "Overview\nI designed talent assessment batteries with client organizations and validated that they actually predicted on-the-job performance."
   },
   {
-    "objectID": "projects/teaching-ml-r/index.html#what-i-taught",
-    "href": "projects/teaching-ml-r/index.html#what-i-taught",
-    "title": "Machine Learning in R Curriculum",
-    "section": "What I taught",
-    "text": "What I taught\n\nMultiple and logistic regression and machine learning in R\nStatistical methods (mean comparison, regression, chi-square) using R and RMarkdown\nHands-on projects where students applied statistical models to real-world data"
+    "objectID": "projects/assessment-validation/index.html#approach",
+    "href": "projects/assessment-validation/index.html#approach",
+    "title": "Talent Assessment Design & Validation",
+    "section": "Approach",
+    "text": "Approach\n\nData collection: Gave the assessments to current employees and collected manager performance ratings\nValidation: Tested reliability and predictive validity with t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\nWeighting: Set assessment weights based on validation results\nMonitoring: Tracked live hiring results to make sure assessments kept performing over time"
   },
   {
     "objectID": "projects/survey-pipeline/index.html",
@@ -84,6 +112,13 @@
     "text": "Experience\n\nSenior Analyst (promoted from Data Analyst)\nAdvance Local · Remote | May 2023 – Present\n\nBuilt dbt/SQL pipelines in Snowflake that standardized survey data processing, cutting turnaround from 3–4 weeks to under 2 business days\nCut survey prep time from 3 days to near-instant upon survey close as part of the same pipeline work\nBuild gold-level data models/tables that feed Power BI dashboards tracking audience engagement, revenue KPIs, and audience demographics\nBuilt a Power BI heatmap (matrix visual) for site-by-content-index audience analysis, including a DAX measure using REMOVEFILTERS to calculate percentage of known users independent of demographic filter context\nOwn data governance for these pipelines and dashboards, enforcing access controls and running data quality checks\nUse AI tools daily (GitHub Copilot, Cursor, Claude, Cortex) to accelerate development and surface insights faster\n\n\n\nAnalyst, People Science\nHarver · Remote | April 2021 – February 2023\n\nDesigned and validated talent assessment batteries in partnership with client organizations\nAdministered assessments to current employees and collected manager performance ratings as part of the validation process\nDetermined assessment weighting based on validation results\nMonitored live hiring results and validated the reliability and predictive validity of assessments using t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\n\n\n\nAdjunct Professor (promoted from Graduate Assistant)\nMontclair State University · Remote | Aug 2020 – May 2021; Sep 2022 – Jan 2023\n\nPromoted from Graduate Assistant to Adjunct Professor after developing a machine learning module (regression, classification) for master’s students\nTaught multiple and logistic regression and machine learning in R to master’s and undergraduate students\nDesigned coursework combining theory with hands-on projects, encouraging students to apply statistical models to real-world data\nLed lectures on statistical methods (mean comparison, regression, chi-square, etc.) using R and RMarkdown\nProvided one-on-one support during office hours, ensuring student comprehension at all levels\nAssisted with projects in the Sociology Department\nCollaborated with faculty to align content with diversity, equity, and inclusion initiatives and curriculum goals\n\n\n\nIntern\ngothamCulture · New York City Metropolitan Area | August 2020 – May 2021\n\nSupported organizational culture projects by designing surveys, cleaning datasets, and generating insights that informed clients’ workplace strategies\nDesigned and analyzed surveys using SurveyMonkey, Excel, and R for the annual gothamCulture workplace report\nCreated visuals and dashboards to compare cultural trends across industries\nConducted research on best practices in workplace culture and provided clients with tailored recommendations\n\n\n\nRecruiting Intern (Part-Time)\nAffinity North · United States | January 2020 – August 2020\n\nEnsured a strong candidate experience; supported orientation and new hire activities\nPrepared candidate schedules, maintained candidate files and databases (PCR Database and Excel), and ensured compliance with applicable policies, procedures, and laws\nGenerated recruiting statistics reports and other ad hoc reports as needed\nSourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice\nAssisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS"
   },
   {
+    "objectID": "resume.html#conference-presentations",
+    "href": "resume.html#conference-presentations",
+    "title": "Resume",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n\nKulas, J., DeFabiis, M., Osorio, C., & Russell, M. (2023). Construct and criterion-related validation of the bifactor engagement scale [Poster]. SIOP Annual Conference, Boston, MA. View\nRussell, M., Garcia Prieto Palacios Roji, R., Osorio-Duffoo, C., & Kulas, J. (2022). Development of an intended bifactor engagement measure [Poster]. SIOP Annual Conference, Seattle, WA. View"
+  },
+  {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Resume",
@@ -91,31 +126,66 @@
     "text": "Education\nMaster’s Degree, Industrial/Organizational Psychology · Montclair State University | 2021\nB.A., Psychology (Honors) · Seton Hall University | 2019"
   },
   {
-    "objectID": "projects/assessment-validation/index.html",
-    "href": "projects/assessment-validation/index.html",
-    "title": "Talent Assessment Design & Validation",
+    "objectID": "projects/engagement-posters/index.html",
+    "href": "projects/engagement-posters/index.html",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
     "section": "",
-    "text": "Role: Analyst, People Science, Harver"
+    "text": "Conferences: Society for Industrial and Organizational Psychology (SIOP) Annual Conference, Seattle 2022 & Boston 2023 Collaborators: John Kulas, Morgan Russell, Renata Garcia Prieto Palacios Roji, Mike DeFabiis Code: heyimMIKE123/Engagement-Survey-Projects · Technical report"
   },
   {
-    "objectID": "projects/assessment-validation/index.html#overview",
-    "href": "projects/assessment-validation/index.html#overview",
-    "title": "Talent Assessment Design & Validation",
+    "objectID": "projects/engagement-posters/index.html#the-idea",
+    "href": "projects/engagement-posters/index.html#the-idea",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
+    "section": "The idea",
+    "text": "The idea\nResearchers usually describe engagement in one of two ways: by substance (Vigor, Dedication, Absorption) or by attitude (what you Think, Feel, and Do). Instead of picking one, our team wrote items that measure both at once. Each item maps to one substantive and one attitudinal dimension, which gives broad coverage of the construct with a short survey."
+  },
+  {
+    "objectID": "projects/engagement-posters/index.html#siop-2023-construct-and-criterion-related-validation",
+    "href": "projects/engagement-posters/index.html#siop-2023-construct-and-criterion-related-validation",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
+    "section": "SIOP 2023: Construct and criterion-related validation",
+    "text": "SIOP 2023: Construct and criterion-related validation\n\n\nGave the scale to a Qualtrics panel alongside two established engagement measures (UWES and Saks), an intent-to-quit scale, and two unrelated “discriminant” scales (pets, household activities)\nScreened out careless responders (excessive missing data, straight-lining, speeding), keeping 377 of 743 respondents\nFound strong convergent validity (r = .79 with Saks, .81 with UWES) and a meaningful negative link to intent to quit (r = −.39)\n\nDownload the 2023 poster (PDF)"
+  },
+  {
+    "objectID": "projects/engagement-posters/index.html#siop-2022-developing-the-measure",
+    "href": "projects/engagement-posters/index.html#siop-2022-developing-the-measure",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
+    "section": "SIOP 2022: Developing the measure",
+    "text": "SIOP 2022: Developing the measure\n\n\nWrote 50 items, then kept the 36 that graduate students and faculty sorted most consistently\nCollected responses from 330 working adults through snowball sampling\nReduced to 20 items using two parallel methods: corrected item-total correlations and CFA modification indices\nThe bifactor model fit well: CFI = 0.92, RMSEA = 0.07; subscale alphas ranged from 0.69 to 0.86\n\nView the 2022 poster as a web page"
+  },
+  {
+    "objectID": "projects/engagement-posters/index.html#tools",
+    "href": "projects/engagement-posters/index.html#tools",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
+    "section": "Tools",
+    "text": "Tools\nR: tidyverse, lavaan (CFA/bifactor models), semPlot, psych, DT, and posterdown for the posters themselves."
+  },
+  {
+    "objectID": "projects/teaching-ml-r/index.html",
+    "href": "projects/teaching-ml-r/index.html",
+    "title": "Machine Learning in R Curriculum",
+    "section": "",
+    "text": "Role: Adjunct Professor (promoted from Graduate Assistant), Montclair State University"
+  },
+  {
+    "objectID": "projects/teaching-ml-r/index.html#overview",
+    "href": "projects/teaching-ml-r/index.html#overview",
+    "title": "Machine Learning in R Curriculum",
     "section": "Overview",
-    "text": "Overview\nI designed talent assessment batteries with client organizations and validated that they actually predicted on-the-job performance."
+    "text": "Overview\nI developed a machine learning module covering regression and classification for master’s students, which led to my promotion from Graduate Assistant to Adjunct Professor."
   },
   {
-    "objectID": "projects/assessment-validation/index.html#approach",
-    "href": "projects/assessment-validation/index.html#approach",
-    "title": "Talent Assessment Design & Validation",
-    "section": "Approach",
-    "text": "Approach\n\nData collection: Gave the assessments to current employees and collected manager performance ratings\nValidation: Tested reliability and predictive validity with t-tests, ANOVA, correlation, regression, and Fisher’s Z transformation\nWeighting: Set assessment weights based on validation results\nMonitoring: Tracked live hiring results to make sure assessments kept performing over time"
+    "objectID": "projects/teaching-ml-r/index.html#what-i-taught",
+    "href": "projects/teaching-ml-r/index.html#what-i-taught",
+    "title": "Machine Learning in R Curriculum",
+    "section": "What I taught",
+    "text": "What I taught\n\nMultiple and logistic regression and machine learning in R\nStatistical methods (mean comparison, regression, chi-square) using R and RMarkdown\nHands-on projects where students applied statistical models to real-world data"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Automated Survey Data Pipeline\n\n\n\ndbt\n\nSQL\n\nSnowflake\n\nPower BI\n\n\n\ndbt/SQL pipelines in Snowflake that cut survey turnaround from 3–4 weeks to under 2 business days.\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nTalent Assessment Design & Validation\n\n\n\npeople analytics\n\npsychometrics\n\nstatistics\n\n\n\nDesigning and statistically validating pre-hire assessment batteries with client organizations.\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in R Curriculum\n\n\n\nR\n\nmachine learning\n\nteaching\n\n\n\nA regression and classification module for master’s students at Montclair State University.\n\n\n\nMay 1, 2021\n\n\n\n\n\n\nNo matching items"
+    "text": "Automated Survey Data Pipeline\n\n\n\ndbt\n\nSQL\n\nSnowflake\n\nPower BI\n\n\n\ndbt/SQL pipelines in Snowflake that cut survey turnaround from 3–4 weeks to under 2 business days.\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nEngagement Paper: Bifactor Measure Development & Measurement Invariance\n\n\n\nR\n\npsychometrics\n\nresearch\n\ndata cleaning\n\n\n\nCo-authored research manuscript on a new engagement measure, plus R pipelines for data cleaning, CFA, and measurement invariance.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBifactor Engagement Measure: SIOP 2022 & 2023 Posters\n\n\n\nR\n\npsychometrics\n\npeople analytics\n\nresearch\n\n\n\nTwo conference posters on developing and validating a new employee engagement survey, built with R and posterdown.\n\n\n\nApr 19, 2023\n\n\n\n\n\n\n\n\n\n\n\nTalent Assessment Design & Validation\n\n\n\npeople analytics\n\npsychometrics\n\nstatistics\n\n\n\nDesigning and statistically validating pre-hire assessment batteries with client organizations.\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in R Curriculum\n\n\n\nR\n\nmachine learning\n\nteaching\n\n\n\nA regression and classification module for master’s students at Montclair State University.\n\n\n\nMay 1, 2021\n\n\n\n\n\n\nNo matching items"
   }
 ]
