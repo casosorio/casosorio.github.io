@@ -61,6 +61,11 @@ Data analyst with a background spanning BI infrastructure, data engineering, and
 - Sourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice
 - Assisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS
 
+## Conference Presentations
+
+- Kulas, J., DeFabiis, M., **Osorio, C.**, & Russell, M. (2023). *Construct and criterion-related validation of the bifactor engagement scale* [Poster]. SIOP Annual Conference, Boston, MA. [View](projects/engagement-posters/)
+- Russell, M., Garcia Prieto Palacios Roji, R., **Osorio-Duffoo, C.**, & Kulas, J. (2022). *Development of an intended bifactor engagement measure* [Poster]. SIOP Annual Conference, Seattle, WA. [View](projects/engagement-posters/)
+
 ## Education
 
 **Master's Degree, Industrial/Organizational Psychology** · Montclair State University | *2021*

@@ -1,0 +1,44 @@
+---
+title: "Engagement Paper: Bifactor Measure Development & Measurement Invariance"
+description: "Co-authored research manuscript on a new engagement measure, plus R pipelines for data cleaning, CFA, and measurement invariance."
+date: 2023-06-10
+categories: [R, psychometrics, research, data cleaning]
+---
+
+**Working title:** *Development and validation of a prescriptive bi-factor measure of employee engagement*
+**Authors:** John Kulas, Renata Garcia Prieto Palacios Roji, Casey Osorio-Duffoo, Mike DeFabiis, Morgan Russell
+**Status:** Manuscript in progress
+**Code:** [jtkulas/EngagementPaper](https://github.com/jtkulas/EngagementPaper)
+
+## About the paper
+
+Engagement is often described by its sub-dimensions (vigor, dedication, absorption). Attitudes, meanwhile, are often split into cognitive, affective, and behavioral components. This paper documents how we built a measure that intentionally crosses those two models:
+
+1. **72 → 36 items** through content validation
+2. **36 → 20 items** after piloting with a snowball sample of 330 respondents
+3. **20 → 18 items** after a further administration to 743 Prolific respondents
+
+The final scale shows moderately good bifactor fit. It can be scored two ways: by substantive dimension (useful to researchers) or by attitude component (useful to practitioners).
+
+A companion study, *"Bought but Partially Sold? Measurement Invariance across Purchased and Snowball Samples,"* tests whether people from volunteer, Qualtrics, and Prolific samples interpret the survey the same way.
+
+## My contributions
+
+I'm one of the top contributors to the repository, with 41 commits across two phases:
+
+**Data cleaning and analysis (2020–2021)**
+
+- Automated cleaning of messy free-text survey responses (for example, "hours worked") so the code works on new data as it comes in
+- Recoded reverse-scored items, split and merged data across survey conditions, and ran item analysis
+- Built interactive plots of results
+- Ran confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn't converge
+
+**Reproducible pipeline (2023)**
+
+- Cleaned up the code base and documented each data source (sample, response dates)
+- Combined all survey samples into a single analysis data frame for the measurement invariance analysis
+- Fixed the CFA code to run on the cleaned data and got the APA-formatted manuscript knitting to PDF again
+
+## Tools
+
+R, R Markdown, `papaja` (APA-formatted manuscripts), `lavaan`, `tidyverse`, LaTeX, Git/GitHub for collaboration across five authors.
