@@ -2,12 +2,9 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/survey-pipeline/index.html",
       "/projects/engagement-paper/index.html",
       "/projects/measurement-invariance/index.html",
-      "/projects/engagement-posters/index.html",
-      "/projects/assessment-validation/index.html",
-      "/projects/teaching-ml-r/index.html"
+      "/projects/engagement-posters/index.html"
     ]
   }
 ]
