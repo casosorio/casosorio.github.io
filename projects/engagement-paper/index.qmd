@@ -1,44 +1,39 @@
 ---
-title: "Engagement Paper: Bifactor Measure Development & Measurement Invariance"
-description: "Co-authored research manuscript on a new engagement measure, plus R pipelines for data cleaning, CFA, and measurement invariance."
+title: "Engagement as Attitude: A Bifactor Measure of Employee Engagement"
+description: "Co-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R."
 date: 2023-06-10
-categories: [R, psychometrics, research, data cleaning]
+categories: [R, psychometrics, research, CFA]
 ---
 
-**Working title:** *Development and validation of a prescriptive bi-factor measure of employee engagement*
-**Authors:** John Kulas, Renata Garcia Prieto Palacios Roji, Casey Osorio-Duffoo, Mike DeFabiis, Morgan Russell
-**Status:** Manuscript in progress
+**Full title:** *Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement*
+**Authors:** John Kulas, Renata Garcia Prieto Palacios Roji, **Casey Osorio-Duffoo**, Morgan Russell, & Mike DeFabiis
 **Code:** [jtkulas/EngagementPaper](https://github.com/jtkulas/EngagementPaper)
 
 ## About the paper
 
-Engagement is often described by its sub-dimensions (vigor, dedication, absorption). Attitudes, meanwhile, are often split into cognitive, affective, and behavioral components. This paper documents how we built a measure that intentionally crosses those two models:
+Engagement is usually defined by three sub-dimensions: vigor, dedication, and absorption. Attitudes are usually split into cognitive, affective, and behavioral components. This paper develops and validates an 18-item measure that intentionally **crosses both models**, so every item captures one dimension from each.
 
-1. **72 → 36 items** through content validation
-2. **36 → 20 items** after piloting with a snowball sample of 330 respondents
-3. **20 → 18 items** after a further administration to 743 Prolific respondents
+## Data & methods
 
-The final scale shows moderately good bifactor fit. It can be scored two ways: by substantive dimension (useful to researchers) or by attitude component (useful to practitioners).
+- **Snowball sample:** 282 working adults, with items shown in four counterbalanced orders
+- **Qualtrics panel:** 343 adults saw items grouped by attitude; 404 saw items grouped by substantive dimension
+- Reliabilities ranged from α = 0.78 to 0.91 across the six subscales
+- Confirmatory factor analyses across 1,025 respondents showed fair fit for both the substantive and attitudinal structures (RMSEA = 0.09)
 
-A companion study, *"Bought but Partially Sold? Measurement Invariance across Purchased and Snowball Samples,"* tests whether people from volunteer, Qualtrics, and Prolific samples interpret the survey the same way.
+## Key findings
+
+- Grouping items by dimension gave respondents only slight cues about the structure; the item-order effect was small
+- Measurement invariance held across the four snowball-sample conditions, but not across all six conditions once the panel samples were added
+- The main source of misfit was the scale's single reverse-coded item ("Thinking about work saps my energy")
 
 ## My contributions
 
-I'm one of the top contributors to the repository, with 41 commits across two phases:
-
-**Data cleaning and analysis (2020–2021)**
-
-- Automated cleaning of messy free-text survey responses (for example, "hours worked") so the code works on new data as it comes in
+- Automated cleaning of messy free-text survey responses (for example, "hours worked") so the code works on new data as it arrives
 - Recoded reverse-scored items, split and merged data across survey conditions, and ran item analysis
 - Built interactive plots of results
-- Ran confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn't converge
-
-**Reproducible pipeline (2023)**
-
-- Cleaned up the code base and documented each data source (sample, response dates)
-- Combined all survey samples into a single analysis data frame for the measurement invariance analysis
-- Fixed the CFA code to run on the cleaned data and got the APA-formatted manuscript knitting to PDF again
+- Ran the confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn't converge
+- In 2023, cleaned up the code base, documented each data source, and got the APA-formatted manuscript knitting to PDF
 
 ## Tools
 
-R, R Markdown, `papaja` (APA-formatted manuscripts), `lavaan`, `tidyverse`, LaTeX, Git/GitHub for collaboration across five authors.
+R, R Markdown, `papaja` (APA-formatted manuscripts), `lavaan`, `tidyverse`, LaTeX, Git/GitHub

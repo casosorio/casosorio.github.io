@@ -1,0 +1,35 @@
+---
+title: "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples"
+description: "Second-author manuscript testing whether paid online panels and volunteer samples answer the same survey the same way."
+date: 2023-06-10
+categories: [R, psychometrics, research, measurement invariance]
+---
+
+**Authors:** John Kulas, **Casey Osorio-Duffoo**, Mike DeFabiis, & Morgan Russell
+**Role:** Second author
+**Code:** [jtkulas/EngagementPaper](https://github.com/jtkulas/EngagementPaper) · [Engagement-Survey-Projects](https://github.com/heyimMIKE123/Engagement-Survey-Projects/tree/main/Measuring%20Invariance)
+
+## The question
+
+Over the past 15 years, organizations and researchers have increasingly *bought* survey responses from online panels such as Qualtrics and Prolific instead of recruiting volunteers. These panels are fast, but data quality questions remain. **Do people from purchased panels interpret a survey the same way as people who volunteered to take it?**
+
+## Approach
+
+We tested the measurement invariance of our 18-item engagement survey (see the [engagement paper](../engagement-paper/)) across samples, first three and then five:
+
+1. Voluntary snowball sample (n = 232)
+2. Qualtrics panel, cleaned (from 743 respondents)
+3. Prolific panel, cleaned (from 785 respondents)
+4. Qualtrics respondents flagged as careless
+5. Prolific respondents flagged as careless
+
+Using multi-group confirmatory factor analysis in `lavaan`, we compared configural, metric, and scalar models to see where the samples' responses diverged.
+
+## My contributions
+
+- Combined all three survey sources into one cleaned analysis data set, with documented sample sources and response dates
+- Wrote and maintained the measurement invariance analysis in R Markdown
+
+## Tools
+
+R, `lavaan`, `tidyverse`, R Markdown, `papaja`, Git/GitHub
