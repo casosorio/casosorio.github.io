@@ -1,0 +1,24 @@
+---
+title: "Automated Survey Data Pipeline"
+description: "dbt/SQL pipelines in Snowflake that cut survey turnaround from 3–4 weeks to under 2 business days."
+date: 2025-01-01
+categories: [dbt, SQL, Snowflake, Power BI]
+---
+
+**Role:** Senior Analyst, Advance Local
+
+## The problem
+
+Survey data took 3–4 weeks to go from survey close to usable results, and preparing each survey took about 3 days of manual work.
+
+## What I built
+
+- Standardized survey data processing with dbt/SQL pipelines in Snowflake
+- Gold-level data models that feed Power BI dashboards on audience engagement, revenue KPIs, and demographics
+- A site-by-content-index heatmap in Power BI, with a DAX measure (using `REMOVEFILTERS`) that calculates the percentage of known users independent of demographic filters
+- Data governance: access controls and data quality checks across the pipelines and dashboards
+
+## Results
+
+- Turnaround cut from **3–4 weeks to under 2 business days**
+- Survey prep cut from **3 days to near-instant** at survey close

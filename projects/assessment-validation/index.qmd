@@ -1,0 +1,19 @@
+---
+title: "Talent Assessment Design & Validation"
+description: "Designing and statistically validating pre-hire assessment batteries with client organizations."
+date: 2022-06-01
+categories: [people analytics, psychometrics, statistics]
+---
+
+**Role:** Analyst, People Science, Harver
+
+## Overview
+
+I designed talent assessment batteries with client organizations and validated that they actually predicted on-the-job performance.
+
+## Approach
+
+1. **Data collection:** Gave the assessments to current employees and collected manager performance ratings
+2. **Validation:** Tested reliability and predictive validity with t-tests, ANOVA, correlation, regression, and Fisher's Z transformation
+3. **Weighting:** Set assessment weights based on validation results
+4. **Monitoring:** Tracked live hiring results to make sure assessments kept performing over time

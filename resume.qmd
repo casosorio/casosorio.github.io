@@ -2,25 +2,67 @@
 title: "Resume"
 ---
 
-[Download PDF](files/resume.pdf){.btn .btn-primary}
+## Summary
 
-## Experience
-
-**Job Title** · Company Name | *Month Year – Present*
-
-- Accomplishment with a measurable result (e.g., "Built an R dashboard that cut reporting time by 40%")
-- Another accomplishment
-- Another accomplishment
-
-**Job Title** · Company Name | *Month Year – Month Year*
-
-- Accomplishment
-- Accomplishment
-
-## Education
-
-**Degree, Major** · University | *Year*
+Data analyst with a background spanning BI infrastructure, data engineering, and people analytics. Combines hands-on experience building production dbt/SQL pipelines and BI dashboards with graduate training in Industrial/Organizational Psychology and hands-on work designing and statistically validating talent assessments. Comfortable moving between engineering (Snowflake, dbt, Power BI) and the statistical/psychometric rigor (reliability, validity, significance testing) that people analytics work specifically demands.
 
 ## Skills
 
-R (tidyverse, ggplot2, Shiny) · SQL · Python · Git · Quarto
+- **Technical:** Python, R, SQL, dbt, Snowflake, BigQuery, Power BI, Alteryx, Streamlit, Looker
+- **AI Tools:** GitHub Copilot, Cursor, Claude, Cortex
+- **Statistical / Psychometric:** Reliability and validity testing, t-tests, ANOVA, correlation, regression, Fisher's Z transformation, assessment design and weighting
+- **Domain:** People analytics, talent assessment, BI infrastructure, data governance, survey methodology
+
+## Experience
+
+### Senior Analyst (promoted from Data Analyst)
+**Advance Local** · Remote | *May 2023 – Present*
+
+- Built dbt/SQL pipelines in Snowflake that standardized survey data processing, cutting turnaround from 3–4 weeks to under 2 business days
+- Cut survey prep time from 3 days to near-instant upon survey close as part of the same pipeline work
+- Build gold-level data models/tables that feed Power BI dashboards tracking audience engagement, revenue KPIs, and audience demographics
+- Built a Power BI heatmap (matrix visual) for site-by-content-index audience analysis, including a DAX measure using REMOVEFILTERS to calculate percentage of known users independent of demographic filter context
+- Own data governance for these pipelines and dashboards, enforcing access controls and running data quality checks
+- Use AI tools daily (GitHub Copilot, Cursor, Claude, Cortex) to accelerate development and surface insights faster
+
+### Analyst, People Science
+**Harver** · Remote | *April 2021 – February 2023*
+
+- Designed and validated talent assessment batteries in partnership with client organizations
+- Administered assessments to current employees and collected manager performance ratings as part of the validation process
+- Determined assessment weighting based on validation results
+- Monitored live hiring results and validated the reliability and predictive validity of assessments using t-tests, ANOVA, correlation, regression, and Fisher's Z transformation
+
+### Adjunct Professor (promoted from Graduate Assistant)
+**Montclair State University** · Remote | *Aug 2020 – May 2021; Sep 2022 – Jan 2023*
+
+- Promoted from Graduate Assistant to Adjunct Professor after developing a machine learning module (regression, classification) for master's students
+- Taught multiple and logistic regression and machine learning in R to master's and undergraduate students
+- Designed coursework combining theory with hands-on projects, encouraging students to apply statistical models to real-world data
+- Led lectures on statistical methods (mean comparison, regression, chi-square, etc.) using R and RMarkdown
+- Provided one-on-one support during office hours, ensuring student comprehension at all levels
+- Assisted with projects in the Sociology Department
+- Collaborated with faculty to align content with diversity, equity, and inclusion initiatives and curriculum goals
+
+### Intern
+**gothamCulture** · New York City Metropolitan Area | *August 2020 – May 2021*
+
+- Supported organizational culture projects by designing surveys, cleaning datasets, and generating insights that informed clients' workplace strategies
+- Designed and analyzed surveys using SurveyMonkey, Excel, and R for the annual gothamCulture workplace report
+- Created visuals and dashboards to compare cultural trends across industries
+- Conducted research on best practices in workplace culture and provided clients with tailored recommendations
+
+### Recruiting Intern (Part-Time)
+**Affinity North** · United States | *January 2020 – August 2020*
+
+- Ensured a strong candidate experience; supported orientation and new hire activities
+- Prepared candidate schedules, maintained candidate files and databases (PCR Database and Excel), and ensured compliance with applicable policies, procedures, and laws
+- Generated recruiting statistics reports and other ad hoc reports as needed
+- Sourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice
+- Assisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS
+
+## Education
+
+**Master's Degree, Industrial/Organizational Psychology** · Montclair State University | *2021*
+
+**B.A., Psychology (Honors)** · Seton Hall University | *2019*

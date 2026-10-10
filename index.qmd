@@ -1,29 +1,22 @@
 ---
 title: "Casey Osorio"
+subtitle: "Senior Data Analyst · People Analytics · BI Engineering"
 about:
-  template: trestles
-  image: files/profile.jpg
+  template: jolla
   links:
     - icon: github
       text: GitHub
       href: https://github.com/casosorio
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/YOUR-USERNAME
+      href: https://www.linkedin.com/in/casey-osorio-duffoo
     - icon: envelope
       text: Email
       href: mailto:caseyosorio@gmail.com
 ---
 
-Hi, I'm Casey. Write a short 2–3 sentence intro here: what you do, what you're interested in, and what kind of work you're looking for.
+I'm a data analyst whose work spans BI infrastructure, data engineering, and people analytics. I build production dbt/SQL pipelines and Power BI dashboards, and I bring graduate training in Industrial/Organizational Psychology to the statistical side, designing and validating talent assessments with reliability, validity, and significance testing.
 
-## Skills
+**Currently:** Senior Analyst at Advance Local.
 
-- **Languages:** R, SQL, Python
-- **Tools:** tidyverse, ggplot2, Shiny, Quarto, Git
-- **Areas:** data analysis, visualization, reporting
-
-## Education
-
-**Your University** | City, State
-Degree, Major | 2020 – 2024
+[See my projects](projects.qmd){.btn .btn-primary} [View my resume](resume.qmd){.btn .btn-outline-primary}
