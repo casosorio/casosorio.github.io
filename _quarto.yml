@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Casey Osorio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+    right:
+      - icon: github
+        href: https://github.com/casosorio
+      - icon: linkedin
+        href: https://www.linkedin.com/in/YOUR-USERNAME
+      - icon: envelope
+        href: mailto:caseyosorio@gmail.com
+  page-footer:
+    center: "© 2026 Casey Osorio · Built with R + Quarto"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: false

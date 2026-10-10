@@ -1,0 +1,26 @@
+---
+title: "Resume"
+---
+
+[Download PDF](files/resume.pdf){.btn .btn-primary}
+
+## Experience
+
+**Job Title** · Company Name | *Month Year – Present*
+
+- Accomplishment with a measurable result (e.g., "Built an R dashboard that cut reporting time by 40%")
+- Another accomplishment
+- Another accomplishment
+
+**Job Title** · Company Name | *Month Year – Month Year*
+
+- Accomplishment
+- Accomplishment
+
+## Education
+
+**Degree, Major** · University | *Year*
+
+## Skills
+
+R (tidyverse, ggplot2, Shiny) · SQL · Python · Git · Quarto
