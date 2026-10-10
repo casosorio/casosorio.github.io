@@ -61,8 +61,9 @@ Data analyst with a background spanning BI infrastructure, data engineering, and
 - Sourced and recruited diverse candidates using LinkedIn, MRI Job Boards, and Dice
 - Assisted the recruiting team during the recruiting process; submitted applicant information into Greenhouse and iCIMS
 
-## Manuscripts
+## Publications & Manuscripts
 
+- Cancialosi, C., ElMakkaoui, Z., Lind, B., & **Osorio-Duffoo, C.** (2021). *2021 State of culture report: Insights from an unprecedented year*. gothamCulture. [View](projects/state-of-culture-2021/)
 - Kulas, J., **Osorio-Duffoo, C.**, DeFabiis, M., & Russell, M. *Bought but partially sold? Measurement invariance across purchased and snowball samples* [Unpublished manuscript]. [View](projects/measurement-invariance/)
 - Kulas, J., Garcia Prieto Palacios Roji, R., **Osorio-Duffoo, C.**, Russell, M., & DeFabiis, M. *Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement* [Unpublished manuscript]. [View](projects/engagement-paper/)
 

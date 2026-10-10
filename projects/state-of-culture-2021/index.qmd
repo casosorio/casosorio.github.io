@@ -1,0 +1,71 @@
+---
+title: "2021 State of Culture Report"
+description: "Co-authored gothamCulture's first annual global study of organizational culture during COVID-19, with survey data from 241 respondents across 200+ organizations."
+date: 2021-05-01
+categories: [survey research, organizational culture, data analysis]
+image: thumbnail.png
+---
+
+**Publisher:** gothamCulture & the Global Organizational Culture Institute
+**Authors:** Chris Cancialosi, Zad ElMakkaoui, Brian Lind, **Casey Osorio-Duffoo**
+**Role:** Co-author; data cleaning and data analysis (internship)
+
+[Read the full report (PDF)](https://gothamculture.com/wp-content/uploads/2021-State-of-Culture-Report.pdf){.btn .btn-primary}
+
+## The question
+
+During the COVID-19 pandemic, some organizations adapted and even innovated while others struggled. **What aspects of organizational culture separated the two?**
+
+## The study
+
+- **Survey:** a 70-item survey covering culture, climate, performance, COVID-19 responses, values, and social justice practices (Likert-scale and open-ended items)
+- **Sample:** 241 respondents from more than 200 organizations across six continents, including HR/OD and non-HR professionals and roles from individual contributor to executive
+- **Collection:** six weeks of snowball sampling through professional networks and social media
+- **Framework:** gothamCulture's *Culture Mosaic*, which scores four culture dimensions: Inspire, Deliver, Enable, and Adapt
+
+## Key findings
+
+```{r}
+#| echo: false
+#| message: false
+#| fig-alt: "Bar chart: organizations that innovated during COVID-19 scored higher on Enable (79 vs 61) and Adapt (78 vs 53)."
+library(ggplot2)
+
+scores <- data.frame(
+  dimension = rep(c("Enable", "Adapt"), each = 2),
+  group = rep(c("Reduced ability to innovate", "Pivoted / innovated"), 2),
+  score = c(61, 79, 53, 78)
+)
+scores$group <- factor(scores$group, levels = c("Reduced ability to innovate", "Pivoted / innovated"))
+
+p <- ggplot(scores, aes(dimension, score, fill = group)) +
+  geom_col(position = position_dodge(width = 0.75), width = 0.7) +
+  geom_text(aes(label = score), position = position_dodge(width = 0.75),
+            vjust = -0.5, size = 4.5) +
+  scale_fill_manual(values = c("#9aa5b1", "#2c7be5")) +
+  scale_y_continuous(limits = c(0, 90), expand = c(0, 0)) +
+  labs(x = NULL, y = "Average Culture Mosaic score", fill = NULL,
+       title = "Organizations that innovated during COVID-19 scored higher",
+       caption = "Source: 2021 State of Culture Report (gothamCulture)") +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "top", panel.grid.major.x = element_blank())
+
+ggsave("thumbnail.png", p, width = 7, height = 4.5, dpi = 100, bg = "white")
+p
+```
+
+- **Culture predicted adaptability.** Organizations that pivoted or innovated during the pandemic scored significantly higher on all four Culture Mosaic dimensions, for example Enable (79 vs. 61) and Adapt (78 vs. 53).
+- **Defining culture matters.** Organizations with a shared definition of culture, especially one shaped by leadership, scored significantly higher on all four dimensions. Only 44% had one.
+- **Measurement isn't action.** Only 36% formally measured culture, and just 21% said their assessments led to real change, a clear gap between data and action.
+- **Remote work is here to stay.** 68% expected remote work to continue after the pandemic.
+- **Social justice:** organizations that discussed social justice openly and honestly significantly outperformed those that treated it as "lip service."
+
+## My contributions
+
+- Cleaned and prepared the survey data for analysis
+- Analyzed the survey results, comparing groups of organizations on Culture Mosaic scores
+- Helped design and analyze the survey in SurveyMonkey, Excel, and R, and created visuals comparing cultural trends across industries
+
+## Tools
+
+R, Excel, SurveyMonkey
