@@ -1,80 +1,73 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Casey Osorio",
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
     "section": "",
-    "text": "I’m a data analyst whose work spans BI infrastructure, data engineering, and people analytics. I build production dbt/SQL pipelines and Power BI dashboards, and I bring graduate training in Industrial/Organizational Psychology to the statistical side, designing and validating talent assessments with reliability, validity, and significance testing.\nCurrently: Senior Analyst at Advance Local.\nSee my projects View my resume"
+    "text": "Montclair State University | 2021\n\nGraduate research on the development and validation of a bifactor employee engagement measure, presented at SIOP 2022 and 2023 (see projects)\nGraduate Assistant, later promoted to Adjunct Professor, teaching regression and machine learning in R"
   },
   {
-    "objectID": "projects/measurement-invariance/index.html",
-    "href": "projects/measurement-invariance/index.html",
-    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "objectID": "education.html#masters-degree-industrialorganizational-psychology",
+    "href": "education.html#masters-degree-industrialorganizational-psychology",
+    "title": "Education",
     "section": "",
-    "text": "Authors: John Kulas, Casey Osorio-Duffoo, Mike DeFabiis, & Morgan Russell Role: Second author Code: jtkulas/EngagementPaper · Engagement-Survey-Projects"
+    "text": "Montclair State University | 2021\n\nGraduate research on the development and validation of a bifactor employee engagement measure, presented at SIOP 2022 and 2023 (see projects)\nGraduate Assistant, later promoted to Adjunct Professor, teaching regression and machine learning in R"
   },
   {
-    "objectID": "projects/measurement-invariance/index.html#the-question",
-    "href": "projects/measurement-invariance/index.html#the-question",
-    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
-    "section": "The question",
-    "text": "The question\nOver the past 15 years, organizations and researchers have increasingly bought survey responses from online panels such as Qualtrics and Prolific instead of recruiting volunteers. These panels are fast, but data quality questions remain. Do people from purchased panels interpret a survey the same way as people who volunteered to take it?"
+    "objectID": "education.html#b.a.-psychology-honors",
+    "href": "education.html#b.a.-psychology-honors",
+    "title": "Education",
+    "section": "B.A., Psychology (Honors)",
+    "text": "B.A., Psychology (Honors)\nSeton Hall University | 2019"
   },
   {
-    "objectID": "projects/measurement-invariance/index.html#approach",
-    "href": "projects/measurement-invariance/index.html#approach",
-    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
-    "section": "Approach",
-    "text": "Approach\nWe tested the measurement invariance of our 18-item engagement survey (see the engagement paper) across samples, first three and then five:\n\nVoluntary snowball sample (n = 232)\nQualtrics panel, cleaned (from 743 respondents)\nProlific panel, cleaned (from 785 respondents)\nQualtrics respondents flagged as careless\nProlific respondents flagged as careless\n\nUsing multi-group confirmatory factor analysis in lavaan, we compared configural, metric, and scalar models to see where the samples’ responses diverged."
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Engagement as Attitude: A Bifactor Measure of Employee Engagement\n\n\n\nR\n\npsychometrics\n\nresearch\n\nCFA\n\n\n\nCo-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\nBought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples\n\n\n\nR\n\npsychometrics\n\nresearch\n\nmeasurement invariance\n\n\n\nSecond-author manuscript testing whether paid online panels and volunteer samples answer the same survey the same way.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBifactor Engagement Measure: SIOP 2022 & 2023 Posters\n\n\n\nR\n\npsychometrics\n\npeople analytics\n\nresearch\n\n\n\nTwo conference posters on developing and validating a new employee engagement survey, built with R and posterdown.\n\n\n\nApr 19, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/measurement-invariance/index.html#my-contributions",
-    "href": "projects/measurement-invariance/index.html#my-contributions",
-    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "objectID": "projects/engagement-paper/index.html",
+    "href": "projects/engagement-paper/index.html",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "",
+    "text": "Full title: Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement Authors: John Kulas, Renata Garcia Prieto Palacios Roji, Casey Osorio-Duffoo, Morgan Russell, & Mike DeFabiis Code: jtkulas/EngagementPaper"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#about-the-paper",
+    "href": "projects/engagement-paper/index.html#about-the-paper",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "About the paper",
+    "text": "About the paper\nEngagement is usually defined by three sub-dimensions: vigor, dedication, and absorption. Attitudes are usually split into cognitive, affective, and behavioral components. This paper develops and validates an 18-item measure that intentionally crosses both models, so every item captures one dimension from each."
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#data-methods",
+    "href": "projects/engagement-paper/index.html#data-methods",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "Data & methods",
+    "text": "Data & methods\n\nSnowball sample: 282 working adults, with items shown in four counterbalanced orders\nQualtrics panel: 343 adults saw items grouped by attitude; 404 saw items grouped by substantive dimension\nReliabilities ranged from α = 0.78 to 0.91 across the six subscales\nConfirmatory factor analyses across 1,025 respondents showed fair fit for both the substantive and attitudinal structures (RMSEA = 0.09)"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#key-findings",
+    "href": "projects/engagement-paper/index.html#key-findings",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "section": "Key findings",
+    "text": "Key findings\n\nGrouping items by dimension gave respondents only slight cues about the structure; the item-order effect was small\nMeasurement invariance held across the four snowball-sample conditions, but not across all six conditions once the panel samples were added\nThe main source of misfit was the scale’s single reverse-coded item (“Thinking about work saps my energy”)"
+  },
+  {
+    "objectID": "projects/engagement-paper/index.html#my-contributions",
+    "href": "projects/engagement-paper/index.html#my-contributions",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
     "section": "My contributions",
-    "text": "My contributions\n\nCombined all three survey sources into one cleaned analysis data set, with documented sample sources and response dates\nWrote and maintained the measurement invariance analysis in R Markdown"
+    "text": "My contributions\n\nAutomated cleaning of messy free-text survey responses (for example, “hours worked”) so the code works on new data as it arrives\nRecoded reverse-scored items, split and merged data across survey conditions, and ran item analysis\nBuilt interactive plots of results\nRan the confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn’t converge\nIn 2023, cleaned up the code base, documented each data source, and got the APA-formatted manuscript knitting to PDF"
   },
   {
-    "objectID": "projects/measurement-invariance/index.html#tools",
-    "href": "projects/measurement-invariance/index.html#tools",
-    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "objectID": "projects/engagement-paper/index.html#tools",
+    "href": "projects/engagement-paper/index.html#tools",
+    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
     "section": "Tools",
-    "text": "Tools\nR, lavaan, tidyverse, R Markdown, papaja, Git/GitHub"
-  },
-  {
-    "objectID": "projects/engagement-posters/index.html",
-    "href": "projects/engagement-posters/index.html",
-    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
-    "section": "",
-    "text": "Conferences: Society for Industrial and Organizational Psychology (SIOP) Annual Conference, Seattle 2022 & Boston 2023 Collaborators: John Kulas, Morgan Russell, Renata Garcia Prieto Palacios Roji, Mike DeFabiis Code: heyimMIKE123/Engagement-Survey-Projects · Technical report"
-  },
-  {
-    "objectID": "projects/engagement-posters/index.html#the-idea",
-    "href": "projects/engagement-posters/index.html#the-idea",
-    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
-    "section": "The idea",
-    "text": "The idea\nResearchers usually describe engagement in one of two ways: by substance (Vigor, Dedication, Absorption) or by attitude (what you Think, Feel, and Do). Instead of picking one, our team wrote items that measure both at once. Each item maps to one substantive and one attitudinal dimension, which gives broad coverage of the construct with a short survey."
-  },
-  {
-    "objectID": "projects/engagement-posters/index.html#siop-2023-construct-and-criterion-related-validation",
-    "href": "projects/engagement-posters/index.html#siop-2023-construct-and-criterion-related-validation",
-    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
-    "section": "SIOP 2023: Construct and criterion-related validation",
-    "text": "SIOP 2023: Construct and criterion-related validation\n\n\nGave the scale to a Qualtrics panel alongside two established engagement measures (UWES and Saks), an intent-to-quit scale, and two unrelated “discriminant” scales (pets, household activities)\nScreened out careless responders (excessive missing data, straight-lining, speeding), keeping 377 of 743 respondents\nFound strong convergent validity (r = .79 with Saks, .81 with UWES) and a meaningful negative link to intent to quit (r = −.39)\n\nDownload the 2023 poster (PDF)"
-  },
-  {
-    "objectID": "projects/engagement-posters/index.html#siop-2022-developing-the-measure",
-    "href": "projects/engagement-posters/index.html#siop-2022-developing-the-measure",
-    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
-    "section": "SIOP 2022: Developing the measure",
-    "text": "SIOP 2022: Developing the measure\n\n\nWrote 50 items, then kept the 36 that graduate students and faculty sorted most consistently\nCollected responses from 330 working adults through snowball sampling\nReduced to 20 items using two parallel methods: corrected item-total correlations and CFA modification indices\nThe bifactor model fit well: CFI = 0.92, RMSEA = 0.07; subscale alphas ranged from 0.69 to 0.86\n\nView the 2022 poster as a web page"
-  },
-  {
-    "objectID": "projects/engagement-posters/index.html#tools",
-    "href": "projects/engagement-posters/index.html#tools",
-    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
-    "section": "Tools",
-    "text": "Tools\nR: tidyverse, lavaan (CFA/bifactor models), semPlot, psych, DT, and posterdown for the posters themselves."
+    "text": "Tools\nR, R Markdown, papaja (APA-formatted manuscripts), lavaan, tidyverse, LaTeX, Git/GitHub"
   },
   {
     "objectID": "resume.html",
@@ -126,52 +119,80 @@
     "text": "Education\nMaster’s Degree, Industrial/Organizational Psychology · Montclair State University | 2021\nB.A., Psychology (Honors) · Seton Hall University | 2019"
   },
   {
-    "objectID": "projects/engagement-paper/index.html",
-    "href": "projects/engagement-paper/index.html",
-    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "objectID": "projects/engagement-posters/index.html",
+    "href": "projects/engagement-posters/index.html",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
     "section": "",
-    "text": "Full title: Engagement as attitude: Development and initial validation of an intentional bi-factor measure of employee engagement Authors: John Kulas, Renata Garcia Prieto Palacios Roji, Casey Osorio-Duffoo, Morgan Russell, & Mike DeFabiis Code: jtkulas/EngagementPaper"
+    "text": "Conferences: Society for Industrial and Organizational Psychology (SIOP) Annual Conference, Seattle 2022 & Boston 2023 Collaborators: John Kulas, Morgan Russell, Renata Garcia Prieto Palacios Roji, Mike DeFabiis Code: heyimMIKE123/Engagement-Survey-Projects · Technical report"
   },
   {
-    "objectID": "projects/engagement-paper/index.html#about-the-paper",
-    "href": "projects/engagement-paper/index.html#about-the-paper",
-    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
-    "section": "About the paper",
-    "text": "About the paper\nEngagement is usually defined by three sub-dimensions: vigor, dedication, and absorption. Attitudes are usually split into cognitive, affective, and behavioral components. This paper develops and validates an 18-item measure that intentionally crosses both models, so every item captures one dimension from each."
+    "objectID": "projects/engagement-posters/index.html#the-idea",
+    "href": "projects/engagement-posters/index.html#the-idea",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
+    "section": "The idea",
+    "text": "The idea\nResearchers usually describe engagement in one of two ways: by substance (Vigor, Dedication, Absorption) or by attitude (what you Think, Feel, and Do). Instead of picking one, our team wrote items that measure both at once. Each item maps to one substantive and one attitudinal dimension, which gives broad coverage of the construct with a short survey."
   },
   {
-    "objectID": "projects/engagement-paper/index.html#data-methods",
-    "href": "projects/engagement-paper/index.html#data-methods",
-    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
-    "section": "Data & methods",
-    "text": "Data & methods\n\nSnowball sample: 282 working adults, with items shown in four counterbalanced orders\nQualtrics panel: 343 adults saw items grouped by attitude; 404 saw items grouped by substantive dimension\nReliabilities ranged from α = 0.78 to 0.91 across the six subscales\nConfirmatory factor analyses across 1,025 respondents showed fair fit for both the substantive and attitudinal structures (RMSEA = 0.09)"
+    "objectID": "projects/engagement-posters/index.html#siop-2023-construct-and-criterion-related-validation",
+    "href": "projects/engagement-posters/index.html#siop-2023-construct-and-criterion-related-validation",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
+    "section": "SIOP 2023: Construct and criterion-related validation",
+    "text": "SIOP 2023: Construct and criterion-related validation\n\n\nGave the scale to a Qualtrics panel alongside two established engagement measures (UWES and Saks), an intent-to-quit scale, and two unrelated “discriminant” scales (pets, household activities)\nScreened out careless responders (excessive missing data, straight-lining, speeding), keeping 377 of 743 respondents\nFound strong convergent validity (r = .79 with Saks, .81 with UWES) and a meaningful negative link to intent to quit (r = −.39)\n\nDownload the 2023 poster (PDF)"
   },
   {
-    "objectID": "projects/engagement-paper/index.html#key-findings",
-    "href": "projects/engagement-paper/index.html#key-findings",
-    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
-    "section": "Key findings",
-    "text": "Key findings\n\nGrouping items by dimension gave respondents only slight cues about the structure; the item-order effect was small\nMeasurement invariance held across the four snowball-sample conditions, but not across all six conditions once the panel samples were added\nThe main source of misfit was the scale’s single reverse-coded item (“Thinking about work saps my energy”)"
+    "objectID": "projects/engagement-posters/index.html#siop-2022-developing-the-measure",
+    "href": "projects/engagement-posters/index.html#siop-2022-developing-the-measure",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
+    "section": "SIOP 2022: Developing the measure",
+    "text": "SIOP 2022: Developing the measure\n\n\nWrote 50 items, then kept the 36 that graduate students and faculty sorted most consistently\nCollected responses from 330 working adults through snowball sampling\nReduced to 20 items using two parallel methods: corrected item-total correlations and CFA modification indices\nThe bifactor model fit well: CFI = 0.92, RMSEA = 0.07; subscale alphas ranged from 0.69 to 0.86\n\nView the 2022 poster as a web page"
   },
   {
-    "objectID": "projects/engagement-paper/index.html#my-contributions",
-    "href": "projects/engagement-paper/index.html#my-contributions",
-    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
-    "section": "My contributions",
-    "text": "My contributions\n\nAutomated cleaning of messy free-text survey responses (for example, “hours worked”) so the code works on new data as it arrives\nRecoded reverse-scored items, split and merged data across survey conditions, and ran item analysis\nBuilt interactive plots of results\nRan the confirmatory factor analyses and fit the bifactor model, including troubleshooting models that wouldn’t converge\nIn 2023, cleaned up the code base, documented each data source, and got the APA-formatted manuscript knitting to PDF"
-  },
-  {
-    "objectID": "projects/engagement-paper/index.html#tools",
-    "href": "projects/engagement-paper/index.html#tools",
-    "title": "Engagement as Attitude: A Bifactor Measure of Employee Engagement",
+    "objectID": "projects/engagement-posters/index.html#tools",
+    "href": "projects/engagement-posters/index.html#tools",
+    "title": "Bifactor Engagement Measure: SIOP 2022 & 2023 Posters",
     "section": "Tools",
-    "text": "Tools\nR, R Markdown, papaja (APA-formatted manuscripts), lavaan, tidyverse, LaTeX, Git/GitHub"
+    "text": "Tools\nR: tidyverse, lavaan (CFA/bifactor models), semPlot, psych, DT, and posterdown for the posters themselves."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "projects/measurement-invariance/index.html",
+    "href": "projects/measurement-invariance/index.html",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
     "section": "",
-    "text": "Engagement as Attitude: A Bifactor Measure of Employee Engagement\n\n\n\nR\n\npsychometrics\n\nresearch\n\nCFA\n\n\n\nCo-authored manuscript developing and validating a new 18-item engagement survey, with CFA and item-order analyses in R.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\nBought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples\n\n\n\nR\n\npsychometrics\n\nresearch\n\nmeasurement invariance\n\n\n\nSecond-author manuscript testing whether paid online panels and volunteer samples answer the same survey the same way.\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBifactor Engagement Measure: SIOP 2022 & 2023 Posters\n\n\n\nR\n\npsychometrics\n\npeople analytics\n\nresearch\n\n\n\nTwo conference posters on developing and validating a new employee engagement survey, built with R and posterdown.\n\n\n\nApr 19, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Authors: John Kulas, Casey Osorio-Duffoo, Mike DeFabiis, & Morgan Russell Role: Second author Code: jtkulas/EngagementPaper · Engagement-Survey-Projects"
+  },
+  {
+    "objectID": "projects/measurement-invariance/index.html#the-question",
+    "href": "projects/measurement-invariance/index.html#the-question",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "section": "The question",
+    "text": "The question\nOver the past 15 years, organizations and researchers have increasingly bought survey responses from online panels such as Qualtrics and Prolific instead of recruiting volunteers. These panels are fast, but data quality questions remain. Do people from purchased panels interpret a survey the same way as people who volunteered to take it?"
+  },
+  {
+    "objectID": "projects/measurement-invariance/index.html#approach",
+    "href": "projects/measurement-invariance/index.html#approach",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "section": "Approach",
+    "text": "Approach\nWe tested the measurement invariance of our 18-item engagement survey (see the engagement paper) across samples, first three and then five:\n\nVoluntary snowball sample (n = 232)\nQualtrics panel, cleaned (from 743 respondents)\nProlific panel, cleaned (from 785 respondents)\nQualtrics respondents flagged as careless\nProlific respondents flagged as careless\n\nUsing multi-group confirmatory factor analysis in lavaan, we compared configural, metric, and scalar models to see where the samples’ responses diverged."
+  },
+  {
+    "objectID": "projects/measurement-invariance/index.html#my-contributions",
+    "href": "projects/measurement-invariance/index.html#my-contributions",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "section": "My contributions",
+    "text": "My contributions\n\nCombined all three survey sources into one cleaned analysis data set, with documented sample sources and response dates\nWrote and maintained the measurement invariance analysis in R Markdown"
+  },
+  {
+    "objectID": "projects/measurement-invariance/index.html#tools",
+    "href": "projects/measurement-invariance/index.html#tools",
+    "title": "Bought but Partially Sold? Measurement Invariance Across Purchased and Snowball Samples",
+    "section": "Tools",
+    "text": "Tools\nR, lavaan, tidyverse, R Markdown, papaja, Git/GitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Casey Osorio",
+    "section": "",
+    "text": "I’m a data analyst whose work spans BI infrastructure, data engineering, and people analytics. I build production dbt/SQL pipelines and Power BI dashboards, and I bring graduate training in Industrial/Organizational Psychology to the statistical side, designing and validating talent assessments with reliability, validity, and significance testing.\nCurrently: Senior Analyst at Advance Local.\nSee my projects View my resume"
   }
 ]
